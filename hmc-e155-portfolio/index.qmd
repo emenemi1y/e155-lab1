@@ -1,0 +1,15 @@
+---
+title: "E155 Portfolio"
+image: images/headshot.jpg
+about: 
+    template: trestles
+    links:
+        - icon: linkedin
+          text: LinkedIn
+          href: https://www.linkedin.com/in/emily56/
+        - icon: github
+          text: Github
+          href: https://github.com/emenemi1y
+---
+
+Emily Kendrick is a senior engineering major at Harvey Mudd College. She is taking MicroPs this semester and is super excited yay. :D
