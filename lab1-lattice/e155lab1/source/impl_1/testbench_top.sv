@@ -1,8 +1,10 @@
+`timescale 1 ns / 1 ns
+
 module testbench_top();
 	logic clk, reset;
 	logic [3:0] s;
 	logic [6:0] seg, seg_exp;
-	logic [3:0] led, led_exp;
+	logic [2:0] led, led_exp;
 	logic [31:0] vectornum, errors;
 	logic [14:0] testvectors[10000:0];
 	
@@ -22,7 +24,7 @@ initial
 		// number of vectors, number of errors
 		vectornum = 0;
 		errors = 0;
-		reset = 0; #22; reset = 1;
+		reset = 1; #22; reset = 0;
 	end
 	
 always @(posedge clk)
@@ -34,7 +36,7 @@ always @(posedge clk)
 always @(negedge clk)
 	if(~reset) begin
 		// check if outputs from DUT match expected values
-		if(led != led_exp) || (seg != seg_exp)) begin
+		if((led != led_exp) || (seg != seg_exp)) begin
 			$display("Error: inputs = %b", s);
 			$display(" outputs = [LED] %b (%b expected) and [7SEG] %b (%b expected)", led, led_exp, seg, seg_exp);
 			errors = errors + 1;

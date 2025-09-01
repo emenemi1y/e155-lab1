@@ -1,9 +1,9 @@
 module testbench_leds();
 	logic clk, reset;
 	logic [3:0] s;
-	logic [3:0] led, led_exp;
+	logic [2:0] led, led_exp;
 	logic [31:0] vectornum, errors;
-	logic [7:0] testvectors[10000:0];
+	logic [6:0] testvectors[10000:0];
 
 leds dut(s, led);
 
@@ -21,7 +21,7 @@ initial
 		// number of vectors, number of errors
 		vectornum = 0;
 		errors = 0;
-		reset = 0; #22; reset = 1;
+		reset = 1; #22; reset = 0;
 	end
 	
 always @(posedge clk)
@@ -33,7 +33,7 @@ always @(posedge clk)
 always @(negedge clk)
 	if(~reset) begin
 		// check if outputs from DUT match expected values
-		if(led != led_exp) || (seg != seg_exp)) begin
+		if(led != led_exp) begin
 			$display("Error: inputs = %b", s);
 			$display(" outputs = %b (%b expected)", led, led_exp);
 			errors = errors + 1;
@@ -41,7 +41,7 @@ always @(negedge clk)
 		
 		vectornum = vectornum + 1;
 		
-		if(testvectors[vectornum] === 16'bx) begin
+		if(testvectors[vectornum] === 7'bx) begin
 			$display("%d tests completed with %d errors", vectornum, errors);
 			$stop;
 		end

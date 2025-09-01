@@ -13,168 +13,110 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-# Loading project lab1_ek
-# Compile of lab1_ek.sv failed with 1 errors.
-# Compile of testbench_sevseg.sv failed with 6 errors.
-# 2 compiles, 2 failed with 7 errors.
-# Compile of lab1_ek.sv was successful.
-# Compile of testbench_sevseg.sv failed with 6 errors.
-# 2 compiles, 1 failed with 6 errors.
-# Compile of lab1_ek.sv was successful.
-# Compile of testbench_sevseg.sv failed with 3 errors.
-# 2 compiles, 1 failed with 3 errors.
-# Error opening C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/(vlog-13069) C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_sevseg.sv
-# Path name 'C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/(vlog-13069) C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_sevseg.sv' doesn't exist.
-# Compile of lab1_ek.sv was successful.
-# Compile of testbench_sevseg.sv was successful.
-# 2 compiles, 0 failed with no errors.
-# Load canceled
-# Compile of lab1_ek.sv was successful.
-# Compile of testbench_sevseg.sv was successful.
-# 2 compiles, 0 failed with no errors.
 vsim -gui work.testbench_sevseg -voptargs=+acc
 # vsim -gui work.testbench_sevseg -voptargs="+acc" 
-# Start time: 16:28:13 on Aug 31,2025
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
-# ** Error (suppressible): C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_sevseg.sv(31): (vopt-7063) Failed to find 'dir' in hierarchical name 'dir'.
-#         Region: testbench_sevseg
-# Optimization failed
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
-# Error loading design
-# End time: 16:28:14 on Aug 31,2025, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 10
-run 1000
-# No Design Loaded!
-# A time value could not be extracted from the current line
-# Compile of lab1_ek.sv was successful.
-# Compile of testbench_sevseg.sv was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui -voptargs=+acc work.testbench_sevseg
-# vsim -gui -voptargs="+acc" work.testbench_sevseg 
-# Start time: 16:30:52 on Aug 31,2025
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Start time: 13:34:44 on Sep 01,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading sv_std.std
 # Loading work.testbench_sevseg(fast)
 # Loading work.sevseg(fast)
-run 1000
-# ** Warning: (vsim-7) Failed to open readmem file "sevseg_tv.tv" in read mode.
-# No such file or directory. (errno = ENOENT)    : C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_sevseg.sv(20)
-#    Time: 0 ns  Iteration: 0  Instance: /testbench_sevseg
-pwd
-# C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1
-# Compile of lab1_ek.sv was successful.
-# Compile of testbench_sevseg.sv was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui -voptargs=+acc work.testbench_sevseg
-# End time: 16:37:34 on Aug 31,2025, Elapsed time: 0:06:42
-# Errors: 0, Warnings: 5
-# vsim -gui -voptargs="+acc" work.testbench_sevseg 
-# Start time: 16:37:34 on Aug 31,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading sv_std.std
-# Loading work.testbench_sevseg(fast)
-# Loading work.sevseg(fast)
-run 1000
-# ** Warning: (vsim-7) Failed to open readmem file "/source/impl_1/sevseg_tv.tv" in read mode.
-# No such file or directory. (errno = ENOENT)    : C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_sevseg.sv(20)
-#    Time: 0 ns  Iteration: 0  Instance: /testbench_sevseg
-pwd
-# C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1
-# Compile of lab1_ek.sv was successful.
-# Compile of testbench_sevseg.sv was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui -voptargs=+acc work.testbench_sevseg
-# End time: 16:42:26 on Aug 31,2025, Elapsed time: 0:04:52
-# Errors: 0, Warnings: 4
-# vsim -gui -voptargs="+acc" work.testbench_sevseg 
-# Start time: 16:42:26 on Aug 31,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading sv_std.std
-# Loading work.testbench_sevseg(fast)
-# Loading work.sevseg(fast)
-run 1000
-# ** Warning: (vsim-PLI-3406) Too many digits (11) in data on line 2 of file "sevseg_tv.tv". (Max is 8.)    : C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_sevseg.sv(20)
-#    Time: 0 ns  Iteration: 0  Instance: /testbench_sevseg
-# Compile of lab1_ek.sv was successful.
-# Compile of testbench_sevseg.sv was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui -voptargs=+acc work.testbench_sevseg
-# End time: 16:48:33 on Aug 31,2025, Elapsed time: 0:06:07
-# Errors: 0, Warnings: 4
-# vsim -gui -voptargs="+acc" work.testbench_sevseg 
-# Start time: 16:48:33 on Aug 31,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading sv_std.std
-# Loading work.testbench_sevseg(fast)
-# Loading work.sevseg(fast)
-run 1000
 add wave -position insertpoint  \
-sim:/testbench_sevseg/dut/s \
-sim:/testbench_sevseg/dut/seg
+sim:/testbench_sevseg/clk \
+sim:/testbench_sevseg/reset \
+sim:/testbench_sevseg/s \
+sim:/testbench_sevseg/seg \
+sim:/testbench_sevseg/seg_exp \
+sim:/testbench_sevseg/vectornum
 run 1000
 restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # ** Note: (vsim-8009) Loading existing optimized design _opt
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
 # Loading work.testbench_sevseg(fast)
 # Loading work.sevseg(fast)
 run 1000
-# Compile of lab1_ek.sv was successful.
-# Compile of testbench_sevseg.sv was successful.
-# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.testbench_sevseg(fast)
+# Loading work.sevseg(fast)
+run 1000
+# Load canceled
 vsim -gui -voptargs=+acc work.testbench_sevseg
-# End time: 16:58:03 on Aug 31,2025, Elapsed time: 0:09:30
-# Errors: 0, Warnings: 3
+# End time: 13:40:52 on Sep 01,2025, Elapsed time: 0:06:08
+# Errors: 0, Warnings: 0
 # vsim -gui -voptargs="+acc" work.testbench_sevseg 
-# Start time: 16:58:03 on Aug 31,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Start time: 13:40:52 on Sep 01,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading sv_std.std
 # Loading work.testbench_sevseg(fast)
 # Loading work.sevseg(fast)
 add wave -position insertpoint  \
+sim:/testbench_sevseg/clk \
+sim:/testbench_sevseg/reset \
 sim:/testbench_sevseg/s \
-sim:/testbench_sevseg/seg
-force s 0000
-run 100
+sim:/testbench_sevseg/seg \
+sim:/testbench_sevseg/seg_exp \
+sim:/testbench_sevseg/vectornum
+run 1000
+quit -sim
+# End time: 13:43:35 on Sep 01,2025, Elapsed time: 0:02:43
+# Errors: 0, Warnings: 0
+# Loading project e155lab1_test
 # Compile of lab1_ek.sv was successful.
+# Compile of testbench_leds.sv failed with 3 errors.
 # Compile of testbench_sevseg.sv was successful.
-# 2 compiles, 0 failed with no errors.
+# Compile of testbench_top.sv failed with 3 errors.
+# 4 compiles, 2 failed with 6 errors.
+# Compile of lab1_ek.sv was successful.
+# Compile of testbench_leds.sv was successful.
+# Compile of testbench_sevseg.sv was successful.
+# Compile of testbench_top.sv was successful.
+# 4 compiles, 0 failed with no errors.
 vsim -gui -voptargs=+acc work.testbench_sevseg
-# End time: 17:03:38 on Aug 31,2025, Elapsed time: 0:05:35
-# Errors: 0, Warnings: 3
 # vsim -gui -voptargs="+acc" work.testbench_sevseg 
-# Start time: 17:03:38 on Aug 31,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Start time: 13:48:50 on Sep 01,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading sv_std.std
 # Loading work.testbench_sevseg(fast)
 # Loading work.sevseg(fast)
 add wave -position insertpoint  \
+sim:/testbench_sevseg/clk \
+sim:/testbench_sevseg/reset \
 sim:/testbench_sevseg/s \
 sim:/testbench_sevseg/seg \
 sim:/testbench_sevseg/seg_exp \
 sim:/testbench_sevseg/vectornum
 run 1000
 # Compile of lab1_ek.sv was successful.
+# Compile of testbench_leds.sv was successful.
 # Compile of testbench_sevseg.sv was successful.
-# 2 compiles, 0 failed with no errors.
+# Compile of testbench_top.sv was successful.
+# 4 compiles, 0 failed with no errors.
 vsim -gui -voptargs=+acc work.testbench_sevseg
-# End time: 17:08:45 on Aug 31,2025, Elapsed time: 0:05:07
-# Errors: 0, Warnings: 3
+# End time: 13:51:11 on Sep 01,2025, Elapsed time: 0:02:21
+# Errors: 0, Warnings: 7
 # vsim -gui -voptargs="+acc" work.testbench_sevseg 
-# Start time: 17:08:45 on Aug 31,2025
+# Start time: 13:51:11 on Sep 01,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.testbench_sevseg(fast)
+# Loading work.sevseg(fast)
+add wave -position insertpoint  \
+sim:/testbench_sevseg/clk \
+sim:/testbench_sevseg/reset \
+sim:/testbench_sevseg/s \
+sim:/testbench_sevseg/seg \
+sim:/testbench_sevseg/seg_exp \
+sim:/testbench_sevseg/vectornum
+run 1000
+# Compile of lab1_ek.sv was successful.
+# Compile of testbench_leds.sv was successful.
+# Compile of testbench_sevseg.sv was successful.
+# Compile of testbench_top.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -voptargs=+acc work.testbench_sevseg
+# End time: 13:55:00 on Sep 01,2025, Elapsed time: 0:03:49
+# Errors: 0, Warnings: 2
+# vsim -gui -voptargs="+acc" work.testbench_sevseg 
+# Start time: 13:55:00 on Sep 01,2025
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
@@ -183,10 +125,283 @@ vsim -gui -voptargs=+acc work.testbench_sevseg
 # Loading work.sevseg(fast)
 add wave -position insertpoint  \
 sim:/testbench_sevseg/clk \
+sim:/testbench_sevseg/reset \
 sim:/testbench_sevseg/s \
 sim:/testbench_sevseg/seg \
 sim:/testbench_sevseg/seg_exp \
 sim:/testbench_sevseg/vectornum
 run 1000
-# End time: 17:09:57 on Aug 31,2025, Elapsed time: 0:01:12
+add wave -position insertpoint  \
+sim:/testbench_sevseg/errors \
+sim:/testbench_sevseg/testvectors
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.testbench_sevseg(fast)
+# Loading work.sevseg(fast)
+run 1000
+# Compile of lab1_ek.sv was successful.
+# Compile of testbench_leds.sv was successful.
+# Compile of testbench_sevseg.sv was successful.
+# Compile of testbench_top.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -voptargs=+acc work.testbench_sevseg
+# End time: 14:00:32 on Sep 01,2025, Elapsed time: 0:05:32
+# Errors: 0, Warnings: 3
+# vsim -gui -voptargs="+acc" work.testbench_sevseg 
+# Start time: 14:00:32 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.testbench_sevseg(fast)
+# Loading work.sevseg(fast)
+add wave -position insertpoint  \
+sim:/testbench_sevseg/clk \
+sim:/testbench_sevseg/reset \
+sim:/testbench_sevseg/s \
+sim:/testbench_sevseg/seg \
+sim:/testbench_sevseg/seg_exp \
+sim:/testbench_sevseg/vectornum \
+sim:/testbench_sevseg/errors \
+sim:/testbench_sevseg/testvectors
+run 1000
+#         16 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_sevseg.sv(48)
+#    Time: 175 ns  Iteration: 1  Instance: /testbench_sevseg
+# Break in Module testbench_sevseg at C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_sevseg.sv line 48
+# Compile of lab1_ek.sv was successful.
+# Compile of testbench_leds.sv was successful.
+# Compile of testbench_sevseg.sv was successful.
+# Compile of testbench_top.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -voptargs=+acc work.testbench_leds
+# End time: 14:02:45 on Sep 01,2025, Elapsed time: 0:02:13
+# Errors: 0, Warnings: 3
+# vsim -gui -voptargs="+acc" work.testbench_leds 
+# Start time: 14:02:45 on Sep 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.testbench_leds(fast)
+# Loading work.leds(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'led'. The port definition is at: C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv(48).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_leds/dut File: C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_leds.sv Line: 8
+add wave -position insertpoint  \
+sim:/testbench_leds/clk \
+sim:/testbench_leds/reset \
+sim:/testbench_leds/s \
+sim:/testbench_leds/led \
+sim:/testbench_leds/led_exp
+run 1000
+# Error: inputs = 0000
+#  outputs = 0x00 (1x01 expected)
+# Error: inputs = 0001
+#  outputs = 0x01 (1x00 expected)
+# Error: inputs = 0010
+#  outputs = 0x01 (0x00 expected)
+# Error: inputs = 0110
+#  outputs = 0x01 (0x10 expected)
+#          7 tests completed with          4 errors
+# ** Note: $stop    : C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_leds.sv(46)
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_leds
+# Break in Module testbench_leds at C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_leds.sv line 46
+# Compile of lab1_ek.sv was successful.
+# Compile of testbench_leds.sv was successful.
+# Compile of testbench_sevseg.sv was successful.
+# Compile of testbench_top.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -voptargs=+acc work.testbench_leds
+# End time: 14:06:27 on Sep 01,2025, Elapsed time: 0:03:42
+# Errors: 0, Warnings: 4
+# vsim -gui -voptargs="+acc" work.testbench_leds 
+# Start time: 14:06:27 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.testbench_leds(fast)
+# Loading work.leds(fast)
+add wave -position insertpoint  \
+sim:/testbench_leds/clk \
+sim:/testbench_leds/reset \
+sim:/testbench_leds/s \
+sim:/testbench_leds/led \
+sim:/testbench_leds/led_exp \
+sim:/testbench_leds/vectornum
+run 1000
+#          7 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_leds.sv(46)
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_leds
+# Break in Module testbench_leds at C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_leds.sv line 46
+vsim -gui -voptargs=+acc work.testbench_top
+# End time: 14:07:28 on Sep 01,2025, Elapsed time: 0:01:01
 # Errors: 0, Warnings: 2
+# vsim -gui -voptargs="+acc" work.testbench_top 
+# Start time: 14:07:28 on Sep 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Error: C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv(10): Module 'HSOSC' is not defined.
+#  For instance 'hf_osc' at path 'testbench_top.dut'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# End time: 14:07:28 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of lab1_ek.sv was successful.
+# Compile of testbench_leds.sv was successful.
+# Compile of testbench_sevseg.sv was successful.
+# Compile of testbench_top.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of lab1_ek.sv was successful.
+# Compile of testbench_leds.sv was successful.
+# Compile of testbench_sevseg.sv was successful.
+# Compile of testbench_top.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -voptargs=+acc work.testbench_top
+# vsim -gui -voptargs="+acc" work.testbench_top 
+# Start time: 14:08:27 on Sep 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Error: C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv(10): Module 'HSOSC' is not defined.
+#  For instance 'hf_osc' at path 'testbench_top.dut'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# End time: 14:08:28 on Sep 01,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 4
+vsim -gui -voptargs=+acc work.testbench_leds -L iCE40UP -Lf iCE40UP
+# vsim -gui -voptargs="+acc" work.testbench_leds -L iCE40UP -Lf iCE40UP 
+# Start time: 14:10:07 on Sep 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.testbench_leds(fast)
+# Loading work.leds(fast)
+add wave -position insertpoint  \
+sim:/testbench_leds/clk \
+sim:/testbench_leds/reset \
+sim:/testbench_leds/s \
+sim:/testbench_leds/led \
+sim:/testbench_leds/led_exp \
+sim:/testbench_leds/vectornum
+run 1000
+#          7 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_leds.sv(46)
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_leds
+# Break in Module testbench_leds at C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_leds.sv line 46
+# Causality operation skipped due to absence of debug database file
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.testbench_leds(fast)
+# Loading work.leds(fast)
+run 10000
+#          7 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_leds.sv(46)
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_leds
+# Break in Module testbench_leds at C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_leds.sv line 46
+vsim -gui -voptargs=+acc -L iCE40UP -Lf iCE40UP work.top
+# End time: 14:40:50 on Sep 01,2025, Elapsed time: 0:30:43
+# Errors: 0, Warnings: 2
+# vsim -gui -voptargs="+acc" -L iCE40UP -Lf iCE40UP work.top 
+# Start time: 14:40:50 on Sep 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading iCE40UP.HSOSC(fast)
+# Loading work.led_blink(fast)
+# Loading work.leds(fast)
+# Loading work.sevseg(fast)
+# ** Error (suppressible): (vsim-3839) Variable '/top/led', driven via a port connection, is multiply driven. See C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /top/led_logic File: C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv Line: 13
+# Error loading design
+# End time: 14:41:14 on Sep 01,2025, Elapsed time: 0:00:24
+# Errors: 1, Warnings: 2
+vsim -gui -voptargs=+acc -L iCE40UP -Lf iCE40UP work.testbench_sevseg
+# vsim -gui -voptargs="+acc" -L iCE40UP -Lf iCE40UP work.testbench_sevseg 
+# Start time: 14:41:50 on Sep 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.testbench_sevseg(fast)
+# Loading work.sevseg(fast)
+add wave -position insertpoint  \
+sim:/testbench_sevseg/clk \
+sim:/testbench_sevseg/reset \
+sim:/testbench_sevseg/s \
+sim:/testbench_sevseg/seg \
+sim:/testbench_sevseg/seg_exp \
+sim:/testbench_sevseg/vectornum
+run 1000
+#         16 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_sevseg.sv(48)
+#    Time: 175 ns  Iteration: 1  Instance: /testbench_sevseg
+# Break in Module testbench_sevseg at C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_sevseg.sv line 48
+vsim -gui -voptargs=+acc -L iCE40UP -Lf iCE40UP work.testbench_top
+# End time: 14:43:09 on Sep 01,2025, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 2
+# vsim -gui -voptargs="+acc" -L iCE40UP -Lf iCE40UP work.testbench_top 
+# Start time: 14:43:09 on Sep 01,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.testbench_top(fast)
+# Loading work.top(fast)
+# Loading iCE40UP.HSOSC(fast)
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'testbench_top' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_top/dut/hf_osc File: nofile
+# Loading work.led_blink(fast)
+# Loading work.leds(fast)
+# Loading work.sevseg(fast)
+# Error loading design
+# End time: 14:43:35 on Sep 01,2025, Elapsed time: 0:00:26
+# Errors: 1, Warnings: 2
+# Break key hit
+vsim -gui -voptargs=+acc -L iCE40UP -Lf iCE40UP work.testbench_top
+# vsim -gui -voptargs="+acc" -L iCE40UP -Lf iCE40UP work.testbench_top 
+# Start time: 14:44:01 on Sep 01,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work.testbench_top(fast)
+# Loading work.top(fast)
+# Loading iCE40UP.HSOSC(fast)
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'testbench_top' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_top/dut/hf_osc File: nofile
+# Loading work.led_blink(fast)
+# Loading work.leds(fast)
+# Loading work.sevseg(fast)
+# Error loading design
+# End time: 14:44:25 on Sep 01,2025, Elapsed time: 0:00:24
+# Errors: 1, Warnings: 1
+# Compile of lab1_ek.sv was successful.
+# Compile of testbench_leds.sv was successful.
+# Compile of testbench_sevseg.sv was successful.
+# Compile of testbench_top.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui -voptargs=+acc -L iCE40UP -Lf iCE40UP work.testbench_top
+# vsim -gui -voptargs="+acc" -L iCE40UP -Lf iCE40UP work.testbench_top 
+# Start time: 14:45:23 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.testbench_top(fast)
+# Loading work.top(fast)
+# Loading iCE40UP.HSOSC(fast)
+# Loading work.led_blink(fast)
+# Loading work.leds(fast)
+# Loading work.sevseg(fast)
+# ** Error (suppressible): (vsim-3839) Variable '/testbench_top/dut/led', driven via a port connection, is multiply driven. See C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_top/dut/led_logic File: C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv Line: 13
+# Error loading design
+# End time: 14:45:47 on Sep 01,2025, Elapsed time: 0:00:24
+# Errors: 1, Warnings: 3

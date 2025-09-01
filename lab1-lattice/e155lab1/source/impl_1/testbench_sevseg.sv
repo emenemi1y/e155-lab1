@@ -3,7 +3,7 @@ module testbench_sevseg();
 	logic [3:0] s;
 	logic [6:0] seg, seg_exp;
 	logic [31:0] vectornum, errors;
-	logic [12:0] testvectors[10000:0];
+	logic [10:0] testvectors[10000:0];
 	
 sevseg dut(s, seg);
 
@@ -11,7 +11,8 @@ sevseg dut(s, seg);
 always
 	begin
 		// create clock -- period = 10 ticks
-		clk = 1; #5; clk = 0; #5;
+		clk = 1; #5; 
+		clk = 0; #5;
 	end
 
 initial
@@ -21,7 +22,8 @@ initial
 		// number of vectors, number of errors
 		vectornum = 0;
 		errors = 0;
-		reset = 0; #22; reset = 1;
+		reset = 1; #22; 
+		reset = 0;
 	end
 	
 always @(posedge clk)
@@ -41,7 +43,7 @@ always @(negedge clk)
 		
 		vectornum = vectornum + 1;
 		
-		if(testvectors[vectornum] === 13'bx) begin
+		if(testvectors[vectornum] === 11'bx) begin
 			$display("%d tests completed with %d errors", vectornum, errors);
 			$stop;
 		end
