@@ -1,6 +1,6 @@
 <HTML>
 <HEAD>
-<TITLE>Lattice TCL Log</TITLE>
+<TITLE></TITLE>
 <link href="file:///C:/lscc/radiant/2024.2/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
 <link href="file:///C:/lscc/radiant/2024.2/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
 <style type="text/css">
@@ -40,23 +40,29 @@ if (a)
 <BODY>
 
 <DIV id="content" onclick="hideTocList()"><PRE>
-<A name="pn250830162519"></A><B><U><big>pn250830162519</big></U></B>
-#Start recording tcl command: 8/30/2025 15:34:56
-#Project Location: C:/Users/ekendrick/Documents/lab1-lattice/e155lab1; Project name: e155lab1
-prj_create -name "e155lab1" -impl "impl_1" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
-prj_save 
-prj_add_source "C:/Users/ekendrick/Documents/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv"
-#Stop recording: 8/30/2025 16:25:19
-
+POSTSYN: Post Synthesis Process Radiant Software (64-bit) 2024.2.0.3.0
+Command Line: postsyn -a iCE40UP -p iCE40UP5K -t SG48 -sp High-Performance_1.2V -oc Industrial -top -w -o e155lab1_impl_1_syn.udb -gui -msgset C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/promote.xml e155lab1_impl_1.vm 
+   Architecture:     iCE40UP
+   Device:           iCE40UP5K
+   Package:          SG48
+   Performance:      High-Performance_1.2V
+Reading input file 'e155lab1_impl_1.vm' ...
+Removing unused logic ...
+Starting design annotation....
+ 
+Constraint Summary:
+   Total number of constraints: 1
+   Total number of constraints dropped: 0
+ 
+Writing output file 'e155lab1_impl_1_syn.udb'.
+POSTSYN finished successfully.
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 42 MB
+Checksum -- postsyn: afdc88e7c88fed2bd9c5a37869c7379a9abd065
 
 
 </PRE></DIV>
-
-<DIV id="toc" class="radiant"><span onmousemove="showTocList()">Contents</span>
-<UL id="toc_list">
-<LI><A href=#pn250830162519>pn250830162519</A></LI>
-</UL>
-</DIV>
 
 <button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
 <script type="text/javascript">
