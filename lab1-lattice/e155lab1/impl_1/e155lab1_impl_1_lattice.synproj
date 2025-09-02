@@ -42,11 +42,10 @@
 -path "C:/lscc/radiant/2024.2/ispfpga/ice40tp/data" "C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/impl_1" "C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1"
 -ver "C:/lscc/radiant/2024.2/ip/pmi/pmi_iCE40UP.v"
 -lib pmi -vhd "C:/lscc/radiant/2024.2/ip/pmi/pmi_iCE40UP.vhd"
--sver "C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/AI_prototype.sv"
+-sver "C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/ai_prototype.sv"
 
 
 -path "C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1"
--top led_blinker_2hz
 -udb "e155lab1_impl_1_rtl.udb"
 -output_hdl "e155lab1_impl_1.vm"
 

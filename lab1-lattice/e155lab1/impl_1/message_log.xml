@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BaliMessageLog>
+    <Task name="Export">
+        <Message>
+            <ID>1081100</ID>
+            <Severity>1</Severity>
+            <Dynamic>Bitstream authenticated.</Dynamic>
+        </Message>
+    </Task>
     <Task name="Synthesis">
+        <Message>
+            <ID>35001476</ID>
+            <Severity>256</Severity>
+        </Message>
         <Message>
             <ID>35935050</ID>
             <Severity>16</Severity>
@@ -329,6 +340,11 @@
             <Navigation>4</Navigation>
         </Message>
         <Message>
+            <ID>35001200</ID>
+            <Severity>16</Severity>
+            <Dynamic>led_blink</Dynamic>
+        </Message>
+        <Message>
             <ID>35921504</ID>
             <Severity>1</Severity>
             <Dynamic></Dynamic>
@@ -338,17 +354,463 @@
             <ID>35901018</ID>
             <Severity>1</Severity>
             <Dynamic>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/ai_prototype.sv(1): </Dynamic>
-            <Dynamic>led_blinker_2hz</Dynamic>
+            <Dynamic>led_blink</Dynamic>
             <Navigation>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/ai_prototype.sv</Navigation>
             <Navigation>1</Navigation>
         </Message>
         <Message>
-            <ID>35901063</ID>
-            <Severity>4096</Severity>
-            <Dynamic>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/ai_prototype.sv(17): </Dynamic>
-            <Dynamic>SB_HFOSC</Dynamic>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/lscc/radiant/2024.2/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v(756): </Dynamic>
+            <Dynamic>HSOSC</Dynamic>
+            <Navigation>C:/lscc/radiant/2024.2/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v</Navigation>
+            <Navigation>756</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>16</Severity>
+            <Dynamic>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/ai_prototype.sv(34): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>25</Dynamic>
             <Navigation>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/ai_prototype.sv</Navigation>
-            <Navigation>17</Navigation>
+            <Navigation>34</Navigation>
+        </Message>
+    </Task>
+    <Task name="Map">
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>No port matched 's[0]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>2</Dynamic>
+            <Dynamic>No port matched 's[1]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>2</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Dynamic>No port matched 's[2]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>3</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Dynamic>No port matched 's[3]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Dynamic>No port matched 'led[0]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>6</Dynamic>
+            <Dynamic>No port matched 'led[1]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Dynamic>No port matched 'led[2]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>No port matched 'seg[0]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>9</Dynamic>
+            <Dynamic>No port matched 'seg[1]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>10</Dynamic>
+            <Dynamic>No port matched 'seg[2]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>11</Dynamic>
+            <Dynamic>No port matched 'seg[3]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>12</Dynamic>
+            <Dynamic>No port matched 'seg[4]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>12</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>13</Dynamic>
+            <Dynamic>No port matched 'seg[5]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>14</Dynamic>
+            <Dynamic>No port matched 'seg[6]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>15</Dynamic>
+            <Dynamic>No port matched 'reset'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>s[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>Can't resolve object 's[0]' in constraint 'ldc_set_location -site {37} [get_ports {s[0]}]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>s[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>2</Dynamic>
+            <Dynamic>Can't resolve object 's[1]' in constraint 'ldc_set_location -site {31} [get_ports {s[1]}]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>2</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>s[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Dynamic>Can't resolve object 's[2]' in constraint 'ldc_set_location -site {35} [get_ports {s[2]}]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>3</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>s[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Dynamic>Can't resolve object 's[3]' in constraint 'ldc_set_location -site {32} [get_ports {s[3]}]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>led[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Dynamic>Can't resolve object 'led[0]' in constraint 'ldc_set_location -site {11} [get_ports {led[0]}]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>led[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>6</Dynamic>
+            <Dynamic>Can't resolve object 'led[1]' in constraint 'ldc_set_location -site {9} [get_ports {led[1]}]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>led[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>7</Dynamic>
+            <Dynamic>Can't resolve object 'led[2]' in constraint 'ldc_set_location -site {6} [get_ports {led[2]}]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>seg[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>Can't resolve object 'seg[0]' in constraint 'ldc_set_location -site {19} [get_ports {seg[0]}]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>seg[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>9</Dynamic>
+            <Dynamic>Can't resolve object 'seg[1]' in constraint 'ldc_set_location -site {18} [get_ports {seg[1]}]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>seg[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>10</Dynamic>
+            <Dynamic>Can't resolve object 'seg[2]' in constraint 'ldc_set_location -site {12} [get_ports {seg[2]}]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>seg[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>11</Dynamic>
+            <Dynamic>Can't resolve object 'seg[3]' in constraint 'ldc_set_location -site {10} [get_ports {seg[3]}]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>seg[4]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>12</Dynamic>
+            <Dynamic>Can't resolve object 'seg[4]' in constraint 'ldc_set_location -site {20} [get_ports {seg[4]}]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>12</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>seg[5]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>13</Dynamic>
+            <Dynamic>Can't resolve object 'seg[5]' in constraint 'ldc_set_location -site {13} [get_ports {seg[5]}]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>seg[6]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>14</Dynamic>
+            <Dynamic>Can't resolve object 'seg[6]' in constraint 'ldc_set_location -site {21} [get_ports {seg[6]}]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>reset</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Dynamic>
+            <Dynamic>15</Dynamic>
+            <Dynamic>Can't resolve object 'reset' in constraint 'ldc_set_location -site {34} [get_ports reset]'.</Dynamic>
+            <Navigation>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/pins.pdc</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {37} [get_ports {s[0]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {31} [get_ports {s[1]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {35} [get_ports {s[2]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {32} [get_ports {s[3]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {11} [get_ports {led[0]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {9} [get_ports {led[1]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {6} [get_ports {led[2]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {19} [get_ports {seg[0]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {18} [get_ports {seg[1]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {12} [get_ports {seg[2]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {10} [get_ports {seg[3]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {20} [get_ports {seg[4]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {13} [get_ports {seg[5]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {21} [get_ports {seg[6]}]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {34} [get_ports reset]</Dynamic>
         </Message>
     </Task>
 </BaliMessageLog>

@@ -1,33 +1,35 @@
-module led_blinker_2hz (
-    output logic led  // Active-high LED output
+module led_blink (
+    output logic led    // LED output
 );
 
-    // Internal 48 MHz high-speed oscillator instance
-    logic clk_48mhz;
-    logic hfosc_enable = 1'b1;
-    logic hfosc_clkout;
+    // ------------------------------------------------------------
+    // Internal HF oscillator primitive (Lattice iCE40UP5K)
+    // ------------------------------------------------------------
+    wire clk_hf;
 
-    // Lattice-specific oscillator primitive
-    SB_HFOSC #(
-        .CLKHF_DIV("0b00")  // 48 MHz
-    ) hfosc_inst (
-        .CLKHFEN(hfosc_enable),
-        .CLKHFPU(hfosc_enable),
-        .CLKHF(hfosc_clkout)
+    // Instantiate the HFOSC
+    // CLKHF_DIV = "0b00" -> 48 MHz
+    // CLKHF_DIV = "0b01" -> 24 MHz
+    // CLKHF_DIV = "0b10" -> 12 MHz
+    // CLKHF_DIV = "0b11" -> 6 MHz
+    HSOSC #(
+        .CLKHF_DIV("0b00")   // Use 48 MHz
+    ) hf_osc_inst (
+        .CLKHFEN(1'b1),      // Enable oscillator
+        .CLKHFPU(1'b1),      // Power up oscillator
+        .CLKHF(clk_hf)
     );
 
-    assign clk_48mhz = hfosc_clkout;
+    // ------------------------------------------------------------
+    // Counter for clock division
+    // ------------------------------------------------------------
+    localparam int HALF_PERIOD = 24_000_000; // 48 MHz / 2 Hz / 2
+    logic [$clog2(HALF_PERIOD)-1:0] counter;
 
-    // Counter for dividing 48 MHz down to 2 Hz
-    localparam int COUNTER_WIDTH = 25;  // 2^25 = 33.5M > 24M
-    localparam int TOGGLE_COUNT = 24_000_000;
-
-    logic [COUNTER_WIDTH-1:0] counter = 0;
-
-    always_ff @(posedge clk_48mhz) begin
-        if (counter == TOGGLE_COUNT - 1) begin
+    always_ff @(posedge clk_hf) begin
+        if (counter == HALF_PERIOD-1) begin
             counter <= 0;
-            led <= ~led;  // Toggle LED every 0.5s
+            led <= ~led;   // Toggle LED every 0.5s
         end else begin
             counter <= counter + 1;
         end

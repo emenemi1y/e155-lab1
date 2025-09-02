@@ -9,13 +9,15 @@ Date created: 8/31/25
 Testbench for the top module 
 */
 	logic clk, reset;
+	logic reset_button; // differentiate from reset simulation
+	assign reset_button = 1'b0;
 	logic [3:0] s;
 	logic [6:0] seg, seg_exp;
 	logic [2:0] led, led_exp;
 	logic [31:0] vectornum, errors;
 	logic [14:0] testvectors[10000:0];
 	
-top dut(s, reset, led, seg);
+top dut(s, reset_button, led, seg);
 
 // generate clock
 always
