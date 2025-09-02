@@ -5,6 +5,15 @@ module top(
 	output logic [6:0] seg
 );
 
+/*
+Name: Emily Kendrick
+Email: ekendrick@hmc.edu
+Date created: 8/30/25
+Top-level module for E155 Lab 1 
+Instantiates high-speed oscillator for use in counter.
+Instantiates modules for 7-segment and LED logic.
+*/
+
 	logic int_osc;
 	HSOSC #(.CLKHF_DIV(2'b01)) 
 		hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(int_osc));
@@ -21,6 +30,15 @@ module led_blink(
 	input logic reset,
 	output logic [2:0] led
 );
+
+/*
+Name: Emily Kendrick
+Email: ekendrick@hmc.edu
+Date created: 8/31/25
+LED blink logic using built-in high-speed oscillator 
+on the UPduino 3.1. Blinks an LED at a frequency of 2.4 Hz,
+assuming the clock frequency is 48 MHz using a counter. 
+*/
 	
 	logic [24:0] counter;
 	logic [24:0] NUM_CYCLES;
@@ -48,6 +66,13 @@ module leds(
 	output logic [2:0] led
 );
 
+/*
+Name: Emily Kendrick
+Email: ekendrick@hmc.edu
+Date created: 8/31/25
+Performs combinational logic for LED0 and LED1.
+*/
+
 	always_comb begin
 		led[0] = s[0] ^ s[1];
 		led[1] = s[2] && s[3];
@@ -61,6 +86,14 @@ module sevseg(
 	input logic [3:0] s,
 	output logic [6:0] seg
 );
+
+/*
+Name: Emily Kendrick
+Email: ekendrick@hmc.edu
+Date created: 8/31/25
+Performs combinational logic for the seven-segment display
+based on a 4-bit input s. 
+*/
 
 	always_comb begin
 		case (s)

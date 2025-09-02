@@ -1,11 +1,19 @@
 module testbench_leds();
+
+/*
+Name: Emily Kendrick
+Email: ekendrick@hmc.edu
+Date created: 8/31/25
+Testbench for the led_blink module 
+*/
+
 	logic clk, reset;
 	logic [3:0] s;
 	logic [2:0] led, led_exp;
 	logic [31:0] vectornum, errors;
 	logic [6:0] testvectors[10000:0];
 
-leds dut(s, led);
+led_blink dut(s, led);
 
 // generate clock
 always

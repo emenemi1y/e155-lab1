@@ -1,4 +1,12 @@
 module testbench_sevseg();
+
+/*
+Name: Emily Kendrick
+Email: ekendrick@hmc.edu
+Date created: 8/31/25
+Testbench for the sevseg module 
+*/
+
 	logic clk, reset;
 	logic [3:0] s;
 	logic [6:0] seg, seg_exp;
