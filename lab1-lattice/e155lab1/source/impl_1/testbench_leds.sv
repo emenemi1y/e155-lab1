@@ -9,11 +9,11 @@ Testbench for the led_blink module
 
 	logic clk, reset;
 	logic [3:0] s;
-	logic [2:0] led, led_exp;
+	logic [1:0] led, led_exp;
 	logic [31:0] vectornum, errors;
-	logic [6:0] testvectors[10000:0];
+	logic [5:0] testvectors[10000:0];
 
-led_blink dut(s, led);
+leds dut(s, led);
 
 // generate clock
 always
@@ -49,7 +49,7 @@ always @(negedge clk)
 		
 		vectornum = vectornum + 1;
 		
-		if(testvectors[vectornum] === 7'bx) begin
+		if(testvectors[vectornum] === 6'bx) begin
 			$display("%d tests completed with %d errors", vectornum, errors);
 			$stop;
 		end

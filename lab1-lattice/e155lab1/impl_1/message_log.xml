@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BaliMessageLog>
-    <Task name="Export">
-        <Message>
-            <ID>1081100</ID>
-            <Severity>1</Severity>
-            <Dynamic>Bitstream authenticated.</Dynamic>
-        </Message>
-    </Task>
     <Task name="Synthesis">
         <Message>
             <ID>35935050</ID>
@@ -66,7 +59,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(1):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(1): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_addsub.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>1</Navigation>
@@ -74,7 +67,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_addsub.v(40):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_addsub.v(40): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/../common/adder_subtractor/rtl/lscc_add_sub.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_addsub.v</Navigation>
             <Navigation>40</Navigation>
@@ -82,7 +75,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(2):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(2): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_add.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>2</Navigation>
@@ -90,7 +83,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_add.v(50):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_add.v(50): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/../common/adder/rtl/lscc_adder.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_add.v</Navigation>
             <Navigation>50</Navigation>
@@ -98,7 +91,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(3):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(3): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_complex_mult.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>3</Navigation>
@@ -106,7 +99,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_complex_mult.v(52):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_complex_mult.v(52): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/../common/complex_mult/rtl/lscc_complex_mult.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_complex_mult.v</Navigation>
             <Navigation>52</Navigation>
@@ -114,7 +107,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(4):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(4): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_counter.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>4</Navigation>
@@ -122,7 +115,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_counter.v(39):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_counter.v(39): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/../common/counter/rtl/lscc_cntr.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_counter.v</Navigation>
             <Navigation>39</Navigation>
@@ -130,7 +123,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(5):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(5): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_fifo.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>5</Navigation>
@@ -138,7 +131,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_fifo.v(44):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_fifo.v(44): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/../common/fifo/rtl/lscc_fifo.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_fifo.v</Navigation>
             <Navigation>44</Navigation>
@@ -146,7 +139,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(6):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(6): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_fifo_dc.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>6</Navigation>
@@ -154,7 +147,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_fifo_dc.v(47):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_fifo_dc.v(47): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_fifo_dc.v</Navigation>
             <Navigation>47</Navigation>
@@ -162,7 +155,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(7):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(7): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_mac.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>7</Navigation>
@@ -170,7 +163,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_mac.v(52):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_mac.v(52): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/../common/mult_accumulate/rtl/lscc_mult_accumulate.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_mac.v</Navigation>
             <Navigation>52</Navigation>
@@ -178,7 +171,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(8):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(8): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_multaddsubsum.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>8</Navigation>
@@ -186,7 +179,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_multaddsubsum.v(53):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_multaddsubsum.v(53): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_multaddsubsum.v</Navigation>
             <Navigation>53</Navigation>
@@ -194,7 +187,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(9):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(9): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_multaddsub.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>9</Navigation>
@@ -202,7 +195,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_multaddsub.v(52):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_multaddsub.v(52): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/../common/mult_add_sub/rtl/lscc_mult_add_sub.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_multaddsub.v</Navigation>
             <Navigation>52</Navigation>
@@ -210,7 +203,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(10):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(10): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_mult.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>10</Navigation>
@@ -218,7 +211,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_mult.v(51):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_mult.v(51): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/../common/multiplier/rtl/lscc_multiplier.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_mult.v</Navigation>
             <Navigation>51</Navigation>
@@ -226,7 +219,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(11):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(11): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ram_dp.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>11</Navigation>
@@ -234,7 +227,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ram_dp.v(48):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ram_dp.v(48): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ram_dp.v</Navigation>
             <Navigation>48</Navigation>
@@ -242,7 +235,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(12):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(12): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ram_dq.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>12</Navigation>
@@ -250,7 +243,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ram_dq.v(45):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ram_dq.v(45): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ram_dq.v</Navigation>
             <Navigation>45</Navigation>
@@ -258,7 +251,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(13):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(13): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_rom.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>13</Navigation>
@@ -266,7 +259,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_rom.v(45):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_rom.v(45): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/../common/rom/rtl/lscc_rom.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_rom.v</Navigation>
             <Navigation>45</Navigation>
@@ -274,7 +267,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(14):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(14): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_sub.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>14</Navigation>
@@ -282,7 +275,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_sub.v(50):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_sub.v(50): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/../common/subtractor/rtl/lscc_subtractor.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_sub.v</Navigation>
             <Navigation>50</Navigation>
@@ -290,7 +283,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(15):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(15): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ram_dp_be.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>15</Navigation>
@@ -298,7 +291,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ram_dp_be.v(49):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ram_dp_be.v(49): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ram_dp_be.v</Navigation>
             <Navigation>49</Navigation>
@@ -306,7 +299,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(16):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(16): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ram_dq_be.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>16</Navigation>
@@ -314,7 +307,7 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ram_dq_be.v(45):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ram_dq_be.v(45): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ram_dq_be.v</Navigation>
             <Navigation>45</Navigation>
@@ -322,23 +315,15 @@
         <Message>
             <ID>35901328</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(17):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v(17): </Dynamic>
             <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_dsp.v</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.v</Navigation>
             <Navigation>17</Navigation>
         </Message>
         <Message>
-            <ID>35901362</ID>
-            <Severity>16</Severity>
-            <Dynamic>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv(12):</Dynamic>
-            <Dynamic>int_osc</Dynamic>
-            <Navigation>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv</Navigation>
-            <Navigation>12</Navigation>
-        </Message>
-        <Message>
             <ID>35921014</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.vhd(4):</Dynamic>
+            <Dynamic>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.vhd(4): </Dynamic>
             <Dynamic>components</Dynamic>
             <Navigation>c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.vhd</Navigation>
             <Navigation>4</Navigation>
@@ -350,61 +335,20 @@
             <Dynamic>C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/impl_1</Dynamic>
         </Message>
         <Message>
-            <ID>35901318</ID>
-            <Severity>32</Severity>
-            <Dynamic>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv(9):</Dynamic>
-            <Dynamic>led</Dynamic>
-            <Navigation>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv</Navigation>
-            <Navigation>9</Navigation>
-        </Message>
-        <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv(1):</Dynamic>
-            <Dynamic>top</Dynamic>
-            <Navigation>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv</Navigation>
+            <Dynamic>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/ai_prototype.sv(1): </Dynamic>
+            <Dynamic>led_blinker_2hz</Dynamic>
+            <Navigation>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/ai_prototype.sv</Navigation>
             <Navigation>1</Navigation>
         </Message>
         <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv(18):</Dynamic>
-            <Dynamic>led_blink</Dynamic>
-            <Navigation>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv</Navigation>
-            <Navigation>18</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>16</Severity>
-            <Dynamic>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv(39):</Dynamic>
-            <Dynamic>32</Dynamic>
-            <Dynamic>25</Dynamic>
-            <Navigation>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv</Navigation>
-            <Navigation>39</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv(45):</Dynamic>
-            <Dynamic>leds</Dynamic>
-            <Navigation>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv</Navigation>
-            <Navigation>45</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv(59):</Dynamic>
-            <Dynamic>sevseg</Dynamic>
-            <Navigation>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv</Navigation>
-            <Navigation>59</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>C:/lscc/radiant/2024.2/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v(756):</Dynamic>
-            <Dynamic>HSOSC(CLKHF_DIV=2'b01)</Dynamic>
-            <Navigation>C:/lscc/radiant/2024.2/ispfpga/../cae_library/synthesis/verilog/iCE40UP.v</Navigation>
-            <Navigation>756</Navigation>
+            <ID>35901063</ID>
+            <Severity>4096</Severity>
+            <Dynamic>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/ai_prototype.sv(17): </Dynamic>
+            <Dynamic>SB_HFOSC</Dynamic>
+            <Navigation>c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/e155lab1/source/impl_1/ai_prototype.sv</Navigation>
+            <Navigation>17</Navigation>
         </Message>
     </Task>
 </BaliMessageLog>

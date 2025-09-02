@@ -1,6 +1,6 @@
 
 PAR: Place And Route Radiant Software (64-bit) 2024.2.0.3.0.
-PARed on: Sun Aug 31 15:26:26 2025
+PARed on: Mon Sep  1 21:29:32 2025
 
 Command Line: par -w -t 1 -cores 1 -hsp m -exp parPathBased=ON \
 	e155lab1_impl_1_map.udb e155lab1_impl_1_par.dir/5_1.udb 
@@ -103,11 +103,11 @@ I/O Bank Usage Summary:
 Total Placer CPU time: 3 secs , REAL time: 3 secs 
 
 
-Checksum -- place: 9d51850d1f94cb7038ee87ce14a3c386b0791895
+Checksum -- place: dba38919ce6722583a72b008993634231aa3f80b
 Writing design to file e155lab1_impl_1_par.dir/5_1.udb ...
 
 
-Start NBR router at 15:26:29 08/31/25
+Start NBR router at 21:29:35 09/01/25
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -136,7 +136,7 @@ Primary clocks (1 used out of 8 available):
 --------------------------------------------------------------------------------
 Completed routing resource preassignment
 
-Start NBR section for initial routing at 15:26:29 08/31/25
+Start NBR section for initial routing at 21:29:35 09/01/25
 Level 4, iteration 1
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Routing in Serial Mode ......
@@ -147,7 +147,7 @@ Estimated worst slack/total negative slack<setup>: 25.923ns/0.000ns; real time: 
 Info: Initial congestion level at 75.00% usage is 0
 Info: Initial congestion area  at 75.00% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 15:26:30 08/31/25
+Start NBR section for normal routing at 21:29:35 09/01/25
 Level 4, iteration 1
 1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
 Estimated worst slack/total negative slack<setup>: 25.923ns/0.000ns; real time: 0 secs 
@@ -155,13 +155,13 @@ Level 4, iteration 2
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
 Estimated worst slack/total negative slack<setup>: 25.923ns/0.000ns; real time: 0 secs 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at 15:26:30 08/31/25
+Start NBR section for setup/hold timing optimization with effort level 3 at 21:29:35 09/01/25
 
-Start NBR section for post-routing at 15:26:30 08/31/25
+Start NBR section for post-routing at 21:29:36 09/01/25
 
 End NBR router with 0 unrouted connection(s)
 
-Checksum -- route: 85317dda167a2f42888b1c7578d592ac6ae0198
+Checksum -- route: dfe9b590940936c1991b9bd716d245946b2b847
 
 Total CPU time 0 secs 
 Total REAL time: 0 secs 
@@ -186,7 +186,7 @@ Note: user must run 'timing' for timing closure signoff.
 
 Total CPU  Time: 4 secs 
 Total REAL Time: 4 secs 
-Peak Memory Usage: 126.98 MB
+Peak Memory Usage: 127.03 MB
 
 
 par done!

@@ -46,7 +46,7 @@ if (a)
 <A name="Timing_rpt_top">Timing Report</A><B><U><big></big></U></B>
 Lattice Timing Report -  Setup  and Hold, Version Radiant Software (64-bit) 2024.2.0.3.0
 
-Sun Aug 31 15:26:31 2025
+Mon Sep  1 21:29:36 2025
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -182,8 +182,8 @@ Clock Domain Crossing
 -------------------------------------------------------
           Listing 10 End Points          |    Slack    
 -------------------------------------------------------
-blink_led_logic/led[2]/SR                |   25.924 ns 
-blink_led_logic/led[2]/SP                |   28.026 ns 
+blink_led_logic/led/SR                   |   25.924 ns 
+blink_led_logic/led/SP                   |   28.026 ns 
 {blink_led_logic/counter_8__i23/SR   blink_led_logic/counter_8__i24/SR}              
                                          |   28.462 ns 
 blink_led_logic/counter_8__i24/D         |   28.543 ns 
@@ -219,7 +219,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
  ++++Path 1  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Path Begin       : blink_led_logic/counter_8__i21/Q  (SLICE_R13C6D)
-Path End         : blink_led_logic/led[2]/SR  (SLICE_R14C4D)
+Path End         : blink_led_logic/led/SR  (SLICE_R14C4D)
 Source Clock     : int_osc (R)
 Destination Clock: int_osc (R)
 Logic Level      : 6
@@ -296,7 +296,7 @@ Data Path
     "path_end":
     {
         "type":"pin",
-        "log_name":"blink_led_logic/led[2]/SR",
+        "log_name":"blink_led_logic/led/SR",
         "phy_name":"blink_led_logic.SLICE_13/LSR"
     },
     "path_sections":[
@@ -419,8 +419,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n116",
-            "phy_name":"blink_led_logic.n116"
+            "log_name":"blink_led_logic/n113",
+            "phy_name":"blink_led_logic.n113"
         },
         "arrive":17.012,
         "delay":2.168
@@ -444,8 +444,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n119",
-            "phy_name":"blink_led_logic.n119"
+            "log_name":"blink_led_logic/n116",
+            "phy_name":"blink_led_logic.n116"
         },
         "arrive":20.713,
         "delay":3.252
@@ -485,11 +485,11 @@ blink_led_logic/i5_4_lut/B->blink_led_logic/i5_4_lut/Z
 blink_led_logic/n14                                          NET DELAY           0.304                 14.395  1       
 blink_led_logic/i8_4_lut/C->blink_led_logic/i8_4_lut/Z
                                           SLICE_R14C5C       C0_TO_F0_DELAY      0.449                 14.844  15      
-blink_led_logic/n116                                         NET DELAY           2.168                 17.012  15      
+blink_led_logic/n113                                         NET DELAY           2.168                 17.012  15      
 blink_led_logic/i110_2_lut/B->blink_led_logic/i110_2_lut/Z
                                           SLICE_R14C5D       D0_TO_F0_DELAY      0.449                 17.461  1       
-blink_led_logic/n119                                         NET DELAY           3.252                 20.713  1       
-blink_led_logic/led[2]/SR                                    ENDPOINT            0.000                 20.713  1       
+blink_led_logic/n116                                         NET DELAY           3.252                 20.713  1       
+blink_led_logic/led/SR                                       ENDPOINT            0.000                 20.713  1       
 
 
 Destination Clock Path
@@ -505,7 +505,7 @@ Destination Clock Path
     "path_end":
     {
         "type":"pin",
-        "log_name":"blink_led_logic/led[2]/CK",
+        "log_name":"blink_led_logic/led/CK",
         "phy_name":"blink_led_logic.SLICE_13/CLK"
     },
     "path_sections":[
@@ -558,7 +558,7 @@ Name                                      Cell/Site Name     Delay Name       In
                                                              CONSTRAINT          0.000                 41.666  1       
 hf_osc.osc_inst/CLKHF                     HFOSC_HFOSC_R1C32  CLOCK LATENCY       0.000                 41.666  15      
 blink_led_logic/int_osc                                      NET DELAY           5.499                 47.165  15      
-blink_led_logic/led[2]/CK                                    CLOCK PIN           0.000                 47.165  1       
+blink_led_logic/led/CK                                       CLOCK PIN           0.000                 47.165  1       
                                                              Uncertainty      -(0.000)                 47.165  
                                                              Setup time       -(0.529)                 46.636  
 ----------------------------------------  -----------------  ---------------  --------  ---------------------  ------  
@@ -573,7 +573,7 @@ Path Slack  (Passed)                                                            
 ++++ Path 2 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
 Path Begin       : blink_led_logic/counter_8__i21/Q  (SLICE_R13C6D)
-Path End         : blink_led_logic/led[2]/SP  (SLICE_R14C4D)
+Path End         : blink_led_logic/led/SP  (SLICE_R14C4D)
 Source Clock     : int_osc (R)
 Destination Clock: int_osc (R)
 Logic Level      : 6
@@ -650,7 +650,7 @@ Data Path
     "path_end":
     {
         "type":"pin",
-        "log_name":"blink_led_logic/led[2]/SP",
+        "log_name":"blink_led_logic/led/SP",
         "phy_name":"blink_led_logic.SLICE_13/CE"
     },
     "path_sections":[
@@ -773,8 +773,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n116",
-            "phy_name":"blink_led_logic.n116"
+            "log_name":"blink_led_logic/n113",
+            "phy_name":"blink_led_logic.n113"
         },
         "arrive":15.175,
         "delay":0.304
@@ -798,8 +798,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n432",
-            "phy_name":"blink_led_logic.n432"
+            "log_name":"blink_led_logic/n429",
+            "phy_name":"blink_led_logic.n429"
         },
         "arrive":18.942,
         "delay":3.318
@@ -839,11 +839,11 @@ blink_led_logic/i5_4_lut/B->blink_led_logic/i5_4_lut/Z
 blink_led_logic/n14                                          NET DELAY           0.304                 14.395  1       
 blink_led_logic/i8_4_lut/C->blink_led_logic/i8_4_lut/Z
                                           SLICE_R14C5C       C0_TO_F0_DELAY      0.476                 14.871  15      
-blink_led_logic/n116                                         NET DELAY           0.304                 15.175  15      
+blink_led_logic/n113                                         NET DELAY           0.304                 15.175  15      
 blink_led_logic/i466_2_lut/B->blink_led_logic/i466_2_lut/Z
                                           SLICE_R14C5C       C1_TO_F1_DELAY      0.449                 15.624  1       
-blink_led_logic/n432                                         NET DELAY           3.318                 18.942  1       
-blink_led_logic/led[2]/SP                                    ENDPOINT            0.000                 18.942  1       
+blink_led_logic/n429                                         NET DELAY           3.318                 18.942  1       
+blink_led_logic/led/SP                                       ENDPOINT            0.000                 18.942  1       
 
 
 Destination Clock Path
@@ -859,7 +859,7 @@ Destination Clock Path
     "path_end":
     {
         "type":"pin",
-        "log_name":"blink_led_logic/led[2]/CK",
+        "log_name":"blink_led_logic/led/CK",
         "phy_name":"blink_led_logic.SLICE_13/CLK"
     },
     "path_sections":[
@@ -912,7 +912,7 @@ Name                                      Cell/Site Name     Delay Name       In
                                                              CONSTRAINT          0.000                 41.666  1       
 hf_osc.osc_inst/CLKHF                     HFOSC_HFOSC_R1C32  CLOCK LATENCY       0.000                 41.666  15      
 blink_led_logic/int_osc                                      NET DELAY           5.499                 47.165  15      
-blink_led_logic/led[2]/CK                                    CLOCK PIN           0.000                 47.165  1       
+blink_led_logic/led/CK                                       CLOCK PIN           0.000                 47.165  1       
                                                              Uncertainty      -(0.000)                 47.165  
                                                              Setup time       -(0.198)                 46.967  
 ----------------------------------------  -----------------  ---------------  --------  ---------------------  ------  
@@ -1127,8 +1127,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n116",
-            "phy_name":"blink_led_logic.n116"
+            "log_name":"blink_led_logic/n113",
+            "phy_name":"blink_led_logic.n113"
         },
         "arrive":18.175,
         "delay":3.331
@@ -1168,7 +1168,7 @@ blink_led_logic/i5_4_lut/B->blink_led_logic/i5_4_lut/Z
 blink_led_logic/n14                                          NET DELAY           0.304                 14.395  1       
 blink_led_logic/i8_4_lut/C->blink_led_logic/i8_4_lut/Z
                                           SLICE_R14C5C       C0_TO_F0_DELAY      0.449                 14.844  15      
-blink_led_logic/n116                                         NET DELAY           3.331                 18.175  15      
+blink_led_logic/n113                                         NET DELAY           3.331                 18.175  15      
 {blink_led_logic/counter_8__i23/SR   blink_led_logic/counter_8__i24/SR}
                                                              ENDPOINT            0.000                 18.175  1       
 
@@ -1379,8 +1379,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n229",
-            "phy_name":"blink_led_logic.n229"
+            "log_name":"blink_led_logic/n226",
+            "phy_name":"blink_led_logic.n226"
         },
         "arrive":9.252,
         "delay":0.000
@@ -1404,8 +1404,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n727",
-            "phy_name":"blink_led_logic.n727"
+            "log_name":"blink_led_logic/n724",
+            "phy_name":"blink_led_logic.n724"
         },
         "arrive":9.529,
         "delay":0.000
@@ -1429,8 +1429,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n231",
-            "phy_name":"blink_led_logic.n231"
+            "log_name":"blink_led_logic/n228",
+            "phy_name":"blink_led_logic.n228"
         },
         "arrive":9.806,
         "delay":0.000
@@ -1454,8 +1454,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n730",
-            "phy_name":"blink_led_logic.n730"
+            "log_name":"blink_led_logic/n727",
+            "phy_name":"blink_led_logic.n727"
         },
         "arrive":10.083,
         "delay":0.000
@@ -1479,8 +1479,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n233",
-            "phy_name":"blink_led_logic.n233"
+            "log_name":"blink_led_logic/n230",
+            "phy_name":"blink_led_logic.n230"
         },
         "arrive":10.360,
         "delay":0.000
@@ -1504,8 +1504,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n733",
-            "phy_name":"blink_led_logic.n733"
+            "log_name":"blink_led_logic/n730",
+            "phy_name":"blink_led_logic.n730"
         },
         "arrive":10.637,
         "delay":0.000
@@ -1529,8 +1529,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n235",
-            "phy_name":"blink_led_logic.n235"
+            "log_name":"blink_led_logic/n232",
+            "phy_name":"blink_led_logic.n232"
         },
         "arrive":11.469,
         "delay":0.555
@@ -1554,8 +1554,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n736",
-            "phy_name":"blink_led_logic.n736"
+            "log_name":"blink_led_logic/n733",
+            "phy_name":"blink_led_logic.n733"
         },
         "arrive":11.746,
         "delay":0.000
@@ -1579,8 +1579,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n237",
-            "phy_name":"blink_led_logic.n237"
+            "log_name":"blink_led_logic/n234",
+            "phy_name":"blink_led_logic.n234"
         },
         "arrive":12.023,
         "delay":0.000
@@ -1604,8 +1604,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n739",
-            "phy_name":"blink_led_logic.n739"
+            "log_name":"blink_led_logic/n736",
+            "phy_name":"blink_led_logic.n736"
         },
         "arrive":12.300,
         "delay":0.000
@@ -1629,8 +1629,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n239",
-            "phy_name":"blink_led_logic.n239"
+            "log_name":"blink_led_logic/n236",
+            "phy_name":"blink_led_logic.n236"
         },
         "arrive":12.577,
         "delay":0.000
@@ -1654,8 +1654,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n742",
-            "phy_name":"blink_led_logic.n742"
+            "log_name":"blink_led_logic/n739",
+            "phy_name":"blink_led_logic.n739"
         },
         "arrive":12.854,
         "delay":0.000
@@ -1679,8 +1679,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n241",
-            "phy_name":"blink_led_logic.n241"
+            "log_name":"blink_led_logic/n238",
+            "phy_name":"blink_led_logic.n238"
         },
         "arrive":13.131,
         "delay":0.000
@@ -1704,8 +1704,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n745",
-            "phy_name":"blink_led_logic.n745"
+            "log_name":"blink_led_logic/n742",
+            "phy_name":"blink_led_logic.n742"
         },
         "arrive":13.408,
         "delay":0.000
@@ -1729,8 +1729,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n243",
-            "phy_name":"blink_led_logic.n243"
+            "log_name":"blink_led_logic/n240",
+            "phy_name":"blink_led_logic.n240"
         },
         "arrive":14.240,
         "delay":0.555
@@ -1754,8 +1754,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n748",
-            "phy_name":"blink_led_logic.n748"
+            "log_name":"blink_led_logic/n745",
+            "phy_name":"blink_led_logic.n745"
         },
         "arrive":14.517,
         "delay":0.000
@@ -1779,8 +1779,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n245",
-            "phy_name":"blink_led_logic.n245"
+            "log_name":"blink_led_logic/n242",
+            "phy_name":"blink_led_logic.n242"
         },
         "arrive":14.794,
         "delay":0.000
@@ -1804,8 +1804,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n751",
-            "phy_name":"blink_led_logic.n751"
+            "log_name":"blink_led_logic/n748",
+            "phy_name":"blink_led_logic.n748"
         },
         "arrive":15.071,
         "delay":0.000
@@ -1829,8 +1829,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n247",
-            "phy_name":"blink_led_logic.n247"
+            "log_name":"blink_led_logic/n244",
+            "phy_name":"blink_led_logic.n244"
         },
         "arrive":15.348,
         "delay":0.000
@@ -1854,8 +1854,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n754",
-            "phy_name":"blink_led_logic.n754"
+            "log_name":"blink_led_logic/n751",
+            "phy_name":"blink_led_logic.n751"
         },
         "arrive":15.625,
         "delay":0.000
@@ -1879,8 +1879,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n249",
-            "phy_name":"blink_led_logic.n249"
+            "log_name":"blink_led_logic/n246",
+            "phy_name":"blink_led_logic.n246"
         },
         "arrive":15.902,
         "delay":0.000
@@ -1904,8 +1904,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n757",
-            "phy_name":"blink_led_logic.n757"
+            "log_name":"blink_led_logic/n754",
+            "phy_name":"blink_led_logic.n754"
         },
         "arrive":16.179,
         "delay":0.000
@@ -1929,8 +1929,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n251",
-            "phy_name":"blink_led_logic.n251"
+            "log_name":"blink_led_logic/n248",
+            "phy_name":"blink_led_logic.n248"
         },
         "arrive":17.011,
         "delay":0.555
@@ -1954,8 +1954,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n760",
-            "phy_name":"blink_led_logic.n760"
+            "log_name":"blink_led_logic/n757",
+            "phy_name":"blink_led_logic.n757"
         },
         "arrive":17.949,
         "delay":0.661
@@ -2011,76 +2011,76 @@ blink_led_logic/counter_8__i0/CK->blink_led_logic/counter_8__i0/Q
 blink_led_logic/counter[0]                                   NET DELAY               2.022                  8.909  2       
 blink_led_logic/counter_8_add_4_1/C1->blink_led_logic/counter_8_add_4_1/CO1
                                           SLICE_R13C4A       C1_TO_COUT1_DELAY       0.343                  9.252  2       
-blink_led_logic/n229                                         NET DELAY               0.000                  9.252  2       
+blink_led_logic/n226                                         NET DELAY               0.000                  9.252  2       
 blink_led_logic/counter_8_add_4_3/CI0->blink_led_logic/counter_8_add_4_3/CO0
                                           SLICE_R13C4B       CIN0_TO_COUT0_DELAY     0.277                  9.529  2       
-blink_led_logic/n727                                         NET DELAY               0.000                  9.529  2       
+blink_led_logic/n724                                         NET DELAY               0.000                  9.529  2       
 blink_led_logic/counter_8_add_4_3/CI1->blink_led_logic/counter_8_add_4_3/CO1
                                           SLICE_R13C4B       CIN1_TO_COUT1_DELAY     0.277                  9.806  2       
-blink_led_logic/n231                                         NET DELAY               0.000                  9.806  2       
+blink_led_logic/n228                                         NET DELAY               0.000                  9.806  2       
 blink_led_logic/counter_8_add_4_5/CI0->blink_led_logic/counter_8_add_4_5/CO0
                                           SLICE_R13C4C       CIN0_TO_COUT0_DELAY     0.277                 10.083  2       
-blink_led_logic/n730                                         NET DELAY               0.000                 10.083  2       
+blink_led_logic/n727                                         NET DELAY               0.000                 10.083  2       
 blink_led_logic/counter_8_add_4_5/CI1->blink_led_logic/counter_8_add_4_5/CO1
                                           SLICE_R13C4C       CIN1_TO_COUT1_DELAY     0.277                 10.360  2       
-blink_led_logic/n233                                         NET DELAY               0.000                 10.360  2       
+blink_led_logic/n230                                         NET DELAY               0.000                 10.360  2       
 blink_led_logic/counter_8_add_4_7/CI0->blink_led_logic/counter_8_add_4_7/CO0
                                           SLICE_R13C4D       CIN0_TO_COUT0_DELAY     0.277                 10.637  2       
-blink_led_logic/n733                                         NET DELAY               0.000                 10.637  2       
+blink_led_logic/n730                                         NET DELAY               0.000                 10.637  2       
 blink_led_logic/counter_8_add_4_7/CI1->blink_led_logic/counter_8_add_4_7/CO1
                                           SLICE_R13C4D       CIN1_TO_COUT1_DELAY     0.277                 10.914  2       
-blink_led_logic/n235                                         NET DELAY               0.555                 11.469  2       
+blink_led_logic/n232                                         NET DELAY               0.555                 11.469  2       
 blink_led_logic/counter_8_add_4_9/CI0->blink_led_logic/counter_8_add_4_9/CO0
                                           SLICE_R13C5A       CIN0_TO_COUT0_DELAY     0.277                 11.746  2       
-blink_led_logic/n736                                         NET DELAY               0.000                 11.746  2       
+blink_led_logic/n733                                         NET DELAY               0.000                 11.746  2       
 blink_led_logic/counter_8_add_4_9/CI1->blink_led_logic/counter_8_add_4_9/CO1
                                           SLICE_R13C5A       CIN1_TO_COUT1_DELAY     0.277                 12.023  2       
-blink_led_logic/n237                                         NET DELAY               0.000                 12.023  2       
+blink_led_logic/n234                                         NET DELAY               0.000                 12.023  2       
 blink_led_logic/counter_8_add_4_11/CI0->blink_led_logic/counter_8_add_4_11/CO0
                                           SLICE_R13C5B       CIN0_TO_COUT0_DELAY     0.277                 12.300  2       
-blink_led_logic/n739                                         NET DELAY               0.000                 12.300  2       
+blink_led_logic/n736                                         NET DELAY               0.000                 12.300  2       
 blink_led_logic/counter_8_add_4_11/CI1->blink_led_logic/counter_8_add_4_11/CO1
                                           SLICE_R13C5B       CIN1_TO_COUT1_DELAY     0.277                 12.577  2       
-blink_led_logic/n239                                         NET DELAY               0.000                 12.577  2       
+blink_led_logic/n236                                         NET DELAY               0.000                 12.577  2       
 blink_led_logic/counter_8_add_4_13/CI0->blink_led_logic/counter_8_add_4_13/CO0
                                           SLICE_R13C5C       CIN0_TO_COUT0_DELAY     0.277                 12.854  2       
-blink_led_logic/n742                                         NET DELAY               0.000                 12.854  2       
+blink_led_logic/n739                                         NET DELAY               0.000                 12.854  2       
 blink_led_logic/counter_8_add_4_13/CI1->blink_led_logic/counter_8_add_4_13/CO1
                                           SLICE_R13C5C       CIN1_TO_COUT1_DELAY     0.277                 13.131  2       
-blink_led_logic/n241                                         NET DELAY               0.000                 13.131  2       
+blink_led_logic/n238                                         NET DELAY               0.000                 13.131  2       
 blink_led_logic/counter_8_add_4_15/CI0->blink_led_logic/counter_8_add_4_15/CO0
                                           SLICE_R13C5D       CIN0_TO_COUT0_DELAY     0.277                 13.408  2       
-blink_led_logic/n745                                         NET DELAY               0.000                 13.408  2       
+blink_led_logic/n742                                         NET DELAY               0.000                 13.408  2       
 blink_led_logic/counter_8_add_4_15/CI1->blink_led_logic/counter_8_add_4_15/CO1
                                           SLICE_R13C5D       CIN1_TO_COUT1_DELAY     0.277                 13.685  2       
-blink_led_logic/n243                                         NET DELAY               0.555                 14.240  2       
+blink_led_logic/n240                                         NET DELAY               0.555                 14.240  2       
 blink_led_logic/counter_8_add_4_17/CI0->blink_led_logic/counter_8_add_4_17/CO0
                                           SLICE_R13C6A       CIN0_TO_COUT0_DELAY     0.277                 14.517  2       
-blink_led_logic/n748                                         NET DELAY               0.000                 14.517  2       
+blink_led_logic/n745                                         NET DELAY               0.000                 14.517  2       
 blink_led_logic/counter_8_add_4_17/CI1->blink_led_logic/counter_8_add_4_17/CO1
                                           SLICE_R13C6A       CIN1_TO_COUT1_DELAY     0.277                 14.794  2       
-blink_led_logic/n245                                         NET DELAY               0.000                 14.794  2       
+blink_led_logic/n242                                         NET DELAY               0.000                 14.794  2       
 blink_led_logic/counter_8_add_4_19/CI0->blink_led_logic/counter_8_add_4_19/CO0
                                           SLICE_R13C6B       CIN0_TO_COUT0_DELAY     0.277                 15.071  2       
-blink_led_logic/n751                                         NET DELAY               0.000                 15.071  2       
+blink_led_logic/n748                                         NET DELAY               0.000                 15.071  2       
 blink_led_logic/counter_8_add_4_19/CI1->blink_led_logic/counter_8_add_4_19/CO1
                                           SLICE_R13C6B       CIN1_TO_COUT1_DELAY     0.277                 15.348  2       
-blink_led_logic/n247                                         NET DELAY               0.000                 15.348  2       
+blink_led_logic/n244                                         NET DELAY               0.000                 15.348  2       
 blink_led_logic/counter_8_add_4_21/CI0->blink_led_logic/counter_8_add_4_21/CO0
                                           SLICE_R13C6C       CIN0_TO_COUT0_DELAY     0.277                 15.625  2       
-blink_led_logic/n754                                         NET DELAY               0.000                 15.625  2       
+blink_led_logic/n751                                         NET DELAY               0.000                 15.625  2       
 blink_led_logic/counter_8_add_4_21/CI1->blink_led_logic/counter_8_add_4_21/CO1
                                           SLICE_R13C6C       CIN1_TO_COUT1_DELAY     0.277                 15.902  2       
-blink_led_logic/n249                                         NET DELAY               0.000                 15.902  2       
+blink_led_logic/n246                                         NET DELAY               0.000                 15.902  2       
 blink_led_logic/counter_8_add_4_23/CI0->blink_led_logic/counter_8_add_4_23/CO0
                                           SLICE_R13C6D       CIN0_TO_COUT0_DELAY     0.277                 16.179  2       
-blink_led_logic/n757                                         NET DELAY               0.000                 16.179  2       
+blink_led_logic/n754                                         NET DELAY               0.000                 16.179  2       
 blink_led_logic/counter_8_add_4_23/CI1->blink_led_logic/counter_8_add_4_23/CO1
                                           SLICE_R13C6D       CIN1_TO_COUT1_DELAY     0.277                 16.456  2       
-blink_led_logic/n251                                         NET DELAY               0.555                 17.011  2       
+blink_led_logic/n248                                         NET DELAY               0.555                 17.011  2       
 blink_led_logic/counter_8_add_4_25/CI0->blink_led_logic/counter_8_add_4_25/CO0
                                           SLICE_R13C7A       CIN0_TO_COUT0_DELAY     0.277                 17.288  2       
-blink_led_logic/n760                                         NET DELAY               0.661                 17.949  2       
+blink_led_logic/n757                                         NET DELAY               0.661                 17.949  2       
 blink_led_logic/counter_8_add_4_25/D1->blink_led_logic/counter_8_add_4_25/S1
                                           SLICE_R13C7A       D1_TO_F1_DELAY          0.476                 18.425  1       
 blink_led_logic/n105[24]                                     NET DELAY               0.000                 18.425  1       
@@ -2293,8 +2293,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n229",
-            "phy_name":"blink_led_logic.n229"
+            "log_name":"blink_led_logic/n226",
+            "phy_name":"blink_led_logic.n226"
         },
         "arrive":9.252,
         "delay":0.000
@@ -2318,8 +2318,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n727",
-            "phy_name":"blink_led_logic.n727"
+            "log_name":"blink_led_logic/n724",
+            "phy_name":"blink_led_logic.n724"
         },
         "arrive":9.529,
         "delay":0.000
@@ -2343,8 +2343,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n231",
-            "phy_name":"blink_led_logic.n231"
+            "log_name":"blink_led_logic/n228",
+            "phy_name":"blink_led_logic.n228"
         },
         "arrive":9.806,
         "delay":0.000
@@ -2368,8 +2368,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n730",
-            "phy_name":"blink_led_logic.n730"
+            "log_name":"blink_led_logic/n727",
+            "phy_name":"blink_led_logic.n727"
         },
         "arrive":10.083,
         "delay":0.000
@@ -2393,8 +2393,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n233",
-            "phy_name":"blink_led_logic.n233"
+            "log_name":"blink_led_logic/n230",
+            "phy_name":"blink_led_logic.n230"
         },
         "arrive":10.360,
         "delay":0.000
@@ -2418,8 +2418,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n733",
-            "phy_name":"blink_led_logic.n733"
+            "log_name":"blink_led_logic/n730",
+            "phy_name":"blink_led_logic.n730"
         },
         "arrive":10.637,
         "delay":0.000
@@ -2443,8 +2443,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n235",
-            "phy_name":"blink_led_logic.n235"
+            "log_name":"blink_led_logic/n232",
+            "phy_name":"blink_led_logic.n232"
         },
         "arrive":11.469,
         "delay":0.555
@@ -2468,8 +2468,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n736",
-            "phy_name":"blink_led_logic.n736"
+            "log_name":"blink_led_logic/n733",
+            "phy_name":"blink_led_logic.n733"
         },
         "arrive":11.746,
         "delay":0.000
@@ -2493,8 +2493,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n237",
-            "phy_name":"blink_led_logic.n237"
+            "log_name":"blink_led_logic/n234",
+            "phy_name":"blink_led_logic.n234"
         },
         "arrive":12.023,
         "delay":0.000
@@ -2518,8 +2518,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n739",
-            "phy_name":"blink_led_logic.n739"
+            "log_name":"blink_led_logic/n736",
+            "phy_name":"blink_led_logic.n736"
         },
         "arrive":12.300,
         "delay":0.000
@@ -2543,8 +2543,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n239",
-            "phy_name":"blink_led_logic.n239"
+            "log_name":"blink_led_logic/n236",
+            "phy_name":"blink_led_logic.n236"
         },
         "arrive":12.577,
         "delay":0.000
@@ -2568,8 +2568,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n742",
-            "phy_name":"blink_led_logic.n742"
+            "log_name":"blink_led_logic/n739",
+            "phy_name":"blink_led_logic.n739"
         },
         "arrive":12.854,
         "delay":0.000
@@ -2593,8 +2593,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n241",
-            "phy_name":"blink_led_logic.n241"
+            "log_name":"blink_led_logic/n238",
+            "phy_name":"blink_led_logic.n238"
         },
         "arrive":13.131,
         "delay":0.000
@@ -2618,8 +2618,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n745",
-            "phy_name":"blink_led_logic.n745"
+            "log_name":"blink_led_logic/n742",
+            "phy_name":"blink_led_logic.n742"
         },
         "arrive":13.408,
         "delay":0.000
@@ -2643,8 +2643,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n243",
-            "phy_name":"blink_led_logic.n243"
+            "log_name":"blink_led_logic/n240",
+            "phy_name":"blink_led_logic.n240"
         },
         "arrive":14.240,
         "delay":0.555
@@ -2668,8 +2668,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n748",
-            "phy_name":"blink_led_logic.n748"
+            "log_name":"blink_led_logic/n745",
+            "phy_name":"blink_led_logic.n745"
         },
         "arrive":14.517,
         "delay":0.000
@@ -2693,8 +2693,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n245",
-            "phy_name":"blink_led_logic.n245"
+            "log_name":"blink_led_logic/n242",
+            "phy_name":"blink_led_logic.n242"
         },
         "arrive":14.794,
         "delay":0.000
@@ -2718,8 +2718,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n751",
-            "phy_name":"blink_led_logic.n751"
+            "log_name":"blink_led_logic/n748",
+            "phy_name":"blink_led_logic.n748"
         },
         "arrive":15.071,
         "delay":0.000
@@ -2743,8 +2743,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n247",
-            "phy_name":"blink_led_logic.n247"
+            "log_name":"blink_led_logic/n244",
+            "phy_name":"blink_led_logic.n244"
         },
         "arrive":15.348,
         "delay":0.000
@@ -2768,8 +2768,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n754",
-            "phy_name":"blink_led_logic.n754"
+            "log_name":"blink_led_logic/n751",
+            "phy_name":"blink_led_logic.n751"
         },
         "arrive":15.625,
         "delay":0.000
@@ -2793,8 +2793,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n249",
-            "phy_name":"blink_led_logic.n249"
+            "log_name":"blink_led_logic/n246",
+            "phy_name":"blink_led_logic.n246"
         },
         "arrive":15.902,
         "delay":0.000
@@ -2818,8 +2818,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n757",
-            "phy_name":"blink_led_logic.n757"
+            "log_name":"blink_led_logic/n754",
+            "phy_name":"blink_led_logic.n754"
         },
         "arrive":16.179,
         "delay":0.000
@@ -2843,8 +2843,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n251",
-            "phy_name":"blink_led_logic.n251"
+            "log_name":"blink_led_logic/n248",
+            "phy_name":"blink_led_logic.n248"
         },
         "arrive":17.672,
         "delay":1.216
@@ -2900,73 +2900,73 @@ blink_led_logic/counter_8__i0/CK->blink_led_logic/counter_8__i0/Q
 blink_led_logic/counter[0]                                   NET DELAY               2.022                  8.909  2       
 blink_led_logic/counter_8_add_4_1/C1->blink_led_logic/counter_8_add_4_1/CO1
                                           SLICE_R13C4A       C1_TO_COUT1_DELAY       0.343                  9.252  2       
-blink_led_logic/n229                                         NET DELAY               0.000                  9.252  2       
+blink_led_logic/n226                                         NET DELAY               0.000                  9.252  2       
 blink_led_logic/counter_8_add_4_3/CI0->blink_led_logic/counter_8_add_4_3/CO0
                                           SLICE_R13C4B       CIN0_TO_COUT0_DELAY     0.277                  9.529  2       
-blink_led_logic/n727                                         NET DELAY               0.000                  9.529  2       
+blink_led_logic/n724                                         NET DELAY               0.000                  9.529  2       
 blink_led_logic/counter_8_add_4_3/CI1->blink_led_logic/counter_8_add_4_3/CO1
                                           SLICE_R13C4B       CIN1_TO_COUT1_DELAY     0.277                  9.806  2       
-blink_led_logic/n231                                         NET DELAY               0.000                  9.806  2       
+blink_led_logic/n228                                         NET DELAY               0.000                  9.806  2       
 blink_led_logic/counter_8_add_4_5/CI0->blink_led_logic/counter_8_add_4_5/CO0
                                           SLICE_R13C4C       CIN0_TO_COUT0_DELAY     0.277                 10.083  2       
-blink_led_logic/n730                                         NET DELAY               0.000                 10.083  2       
+blink_led_logic/n727                                         NET DELAY               0.000                 10.083  2       
 blink_led_logic/counter_8_add_4_5/CI1->blink_led_logic/counter_8_add_4_5/CO1
                                           SLICE_R13C4C       CIN1_TO_COUT1_DELAY     0.277                 10.360  2       
-blink_led_logic/n233                                         NET DELAY               0.000                 10.360  2       
+blink_led_logic/n230                                         NET DELAY               0.000                 10.360  2       
 blink_led_logic/counter_8_add_4_7/CI0->blink_led_logic/counter_8_add_4_7/CO0
                                           SLICE_R13C4D       CIN0_TO_COUT0_DELAY     0.277                 10.637  2       
-blink_led_logic/n733                                         NET DELAY               0.000                 10.637  2       
+blink_led_logic/n730                                         NET DELAY               0.000                 10.637  2       
 blink_led_logic/counter_8_add_4_7/CI1->blink_led_logic/counter_8_add_4_7/CO1
                                           SLICE_R13C4D       CIN1_TO_COUT1_DELAY     0.277                 10.914  2       
-blink_led_logic/n235                                         NET DELAY               0.555                 11.469  2       
+blink_led_logic/n232                                         NET DELAY               0.555                 11.469  2       
 blink_led_logic/counter_8_add_4_9/CI0->blink_led_logic/counter_8_add_4_9/CO0
                                           SLICE_R13C5A       CIN0_TO_COUT0_DELAY     0.277                 11.746  2       
-blink_led_logic/n736                                         NET DELAY               0.000                 11.746  2       
+blink_led_logic/n733                                         NET DELAY               0.000                 11.746  2       
 blink_led_logic/counter_8_add_4_9/CI1->blink_led_logic/counter_8_add_4_9/CO1
                                           SLICE_R13C5A       CIN1_TO_COUT1_DELAY     0.277                 12.023  2       
-blink_led_logic/n237                                         NET DELAY               0.000                 12.023  2       
+blink_led_logic/n234                                         NET DELAY               0.000                 12.023  2       
 blink_led_logic/counter_8_add_4_11/CI0->blink_led_logic/counter_8_add_4_11/CO0
                                           SLICE_R13C5B       CIN0_TO_COUT0_DELAY     0.277                 12.300  2       
-blink_led_logic/n739                                         NET DELAY               0.000                 12.300  2       
+blink_led_logic/n736                                         NET DELAY               0.000                 12.300  2       
 blink_led_logic/counter_8_add_4_11/CI1->blink_led_logic/counter_8_add_4_11/CO1
                                           SLICE_R13C5B       CIN1_TO_COUT1_DELAY     0.277                 12.577  2       
-blink_led_logic/n239                                         NET DELAY               0.000                 12.577  2       
+blink_led_logic/n236                                         NET DELAY               0.000                 12.577  2       
 blink_led_logic/counter_8_add_4_13/CI0->blink_led_logic/counter_8_add_4_13/CO0
                                           SLICE_R13C5C       CIN0_TO_COUT0_DELAY     0.277                 12.854  2       
-blink_led_logic/n742                                         NET DELAY               0.000                 12.854  2       
+blink_led_logic/n739                                         NET DELAY               0.000                 12.854  2       
 blink_led_logic/counter_8_add_4_13/CI1->blink_led_logic/counter_8_add_4_13/CO1
                                           SLICE_R13C5C       CIN1_TO_COUT1_DELAY     0.277                 13.131  2       
-blink_led_logic/n241                                         NET DELAY               0.000                 13.131  2       
+blink_led_logic/n238                                         NET DELAY               0.000                 13.131  2       
 blink_led_logic/counter_8_add_4_15/CI0->blink_led_logic/counter_8_add_4_15/CO0
                                           SLICE_R13C5D       CIN0_TO_COUT0_DELAY     0.277                 13.408  2       
-blink_led_logic/n745                                         NET DELAY               0.000                 13.408  2       
+blink_led_logic/n742                                         NET DELAY               0.000                 13.408  2       
 blink_led_logic/counter_8_add_4_15/CI1->blink_led_logic/counter_8_add_4_15/CO1
                                           SLICE_R13C5D       CIN1_TO_COUT1_DELAY     0.277                 13.685  2       
-blink_led_logic/n243                                         NET DELAY               0.555                 14.240  2       
+blink_led_logic/n240                                         NET DELAY               0.555                 14.240  2       
 blink_led_logic/counter_8_add_4_17/CI0->blink_led_logic/counter_8_add_4_17/CO0
                                           SLICE_R13C6A       CIN0_TO_COUT0_DELAY     0.277                 14.517  2       
-blink_led_logic/n748                                         NET DELAY               0.000                 14.517  2       
+blink_led_logic/n745                                         NET DELAY               0.000                 14.517  2       
 blink_led_logic/counter_8_add_4_17/CI1->blink_led_logic/counter_8_add_4_17/CO1
                                           SLICE_R13C6A       CIN1_TO_COUT1_DELAY     0.277                 14.794  2       
-blink_led_logic/n245                                         NET DELAY               0.000                 14.794  2       
+blink_led_logic/n242                                         NET DELAY               0.000                 14.794  2       
 blink_led_logic/counter_8_add_4_19/CI0->blink_led_logic/counter_8_add_4_19/CO0
                                           SLICE_R13C6B       CIN0_TO_COUT0_DELAY     0.277                 15.071  2       
-blink_led_logic/n751                                         NET DELAY               0.000                 15.071  2       
+blink_led_logic/n748                                         NET DELAY               0.000                 15.071  2       
 blink_led_logic/counter_8_add_4_19/CI1->blink_led_logic/counter_8_add_4_19/CO1
                                           SLICE_R13C6B       CIN1_TO_COUT1_DELAY     0.277                 15.348  2       
-blink_led_logic/n247                                         NET DELAY               0.000                 15.348  2       
+blink_led_logic/n244                                         NET DELAY               0.000                 15.348  2       
 blink_led_logic/counter_8_add_4_21/CI0->blink_led_logic/counter_8_add_4_21/CO0
                                           SLICE_R13C6C       CIN0_TO_COUT0_DELAY     0.277                 15.625  2       
-blink_led_logic/n754                                         NET DELAY               0.000                 15.625  2       
+blink_led_logic/n751                                         NET DELAY               0.000                 15.625  2       
 blink_led_logic/counter_8_add_4_21/CI1->blink_led_logic/counter_8_add_4_21/CO1
                                           SLICE_R13C6C       CIN1_TO_COUT1_DELAY     0.277                 15.902  2       
-blink_led_logic/n249                                         NET DELAY               0.000                 15.902  2       
+blink_led_logic/n246                                         NET DELAY               0.000                 15.902  2       
 blink_led_logic/counter_8_add_4_23/CI0->blink_led_logic/counter_8_add_4_23/CO0
                                           SLICE_R13C6D       CIN0_TO_COUT0_DELAY     0.277                 16.179  2       
-blink_led_logic/n757                                         NET DELAY               0.000                 16.179  2       
+blink_led_logic/n754                                         NET DELAY               0.000                 16.179  2       
 blink_led_logic/counter_8_add_4_23/CI1->blink_led_logic/counter_8_add_4_23/CO1
                                           SLICE_R13C6D       CIN1_TO_COUT1_DELAY     0.277                 16.456  2       
-blink_led_logic/n251                                         NET DELAY               1.216                 17.672  2       
+blink_led_logic/n248                                         NET DELAY               1.216                 17.672  2       
 blink_led_logic/counter_8_add_4_25/D0->blink_led_logic/counter_8_add_4_25/S0
                                           SLICE_R13C7A       D0_TO_F0_DELAY          0.476                 18.148  1       
 blink_led_logic/n105[23]                                     NET DELAY               0.000                 18.148  1       
@@ -3255,8 +3255,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n116",
-            "phy_name":"blink_led_logic.n116"
+            "log_name":"blink_led_logic/n113",
+            "phy_name":"blink_led_logic.n113"
         },
         "arrive":17.580,
         "delay":2.736
@@ -3296,7 +3296,7 @@ blink_led_logic/i5_4_lut/B->blink_led_logic/i5_4_lut/Z
 blink_led_logic/n14                                          NET DELAY           0.304                 14.395  1       
 blink_led_logic/i8_4_lut/C->blink_led_logic/i8_4_lut/Z
                                           SLICE_R14C5C       C0_TO_F0_DELAY      0.449                 14.844  15      
-blink_led_logic/n116                                         NET DELAY           2.736                 17.580  15      
+blink_led_logic/n113                                         NET DELAY           2.736                 17.580  15      
 {blink_led_logic/counter_8__i7/SR   blink_led_logic/counter_8__i8/SR}
                                                              ENDPOINT            0.000                 17.580  1       
 
@@ -3583,8 +3583,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n116",
-            "phy_name":"blink_led_logic.n116"
+            "log_name":"blink_led_logic/n113",
+            "phy_name":"blink_led_logic.n113"
         },
         "arrive":17.580,
         "delay":2.736
@@ -3624,7 +3624,7 @@ blink_led_logic/i5_4_lut/B->blink_led_logic/i5_4_lut/Z
 blink_led_logic/n14                                          NET DELAY           0.304                 14.395  1       
 blink_led_logic/i8_4_lut/C->blink_led_logic/i8_4_lut/Z
                                           SLICE_R14C5C       C0_TO_F0_DELAY      0.449                 14.844  15      
-blink_led_logic/n116                                         NET DELAY           2.736                 17.580  15      
+blink_led_logic/n113                                         NET DELAY           2.736                 17.580  15      
 {blink_led_logic/counter_8__i9/SR   blink_led_logic/counter_8__i10/SR}
                                                              ENDPOINT            0.000                 17.580  1       
 
@@ -3911,8 +3911,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n116",
-            "phy_name":"blink_led_logic.n116"
+            "log_name":"blink_led_logic/n113",
+            "phy_name":"blink_led_logic.n113"
         },
         "arrive":17.580,
         "delay":2.736
@@ -3952,7 +3952,7 @@ blink_led_logic/i5_4_lut/B->blink_led_logic/i5_4_lut/Z
 blink_led_logic/n14                                          NET DELAY           0.304                 14.395  1       
 blink_led_logic/i8_4_lut/C->blink_led_logic/i8_4_lut/Z
                                           SLICE_R14C5C       C0_TO_F0_DELAY      0.449                 14.844  15      
-blink_led_logic/n116                                         NET DELAY           2.736                 17.580  15      
+blink_led_logic/n113                                         NET DELAY           2.736                 17.580  15      
 blink_led_logic/counter_8__i0/SR                             ENDPOINT            0.000                 17.580  1       
 
 
@@ -4237,8 +4237,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n116",
-            "phy_name":"blink_led_logic.n116"
+            "log_name":"blink_led_logic/n113",
+            "phy_name":"blink_led_logic.n113"
         },
         "arrive":17.580,
         "delay":2.736
@@ -4278,7 +4278,7 @@ blink_led_logic/i5_4_lut/B->blink_led_logic/i5_4_lut/Z
 blink_led_logic/n14                                          NET DELAY           0.304                 14.395  1       
 blink_led_logic/i8_4_lut/C->blink_led_logic/i8_4_lut/Z
                                           SLICE_R14C5C       C0_TO_F0_DELAY      0.449                 14.844  15      
-blink_led_logic/n116                                         NET DELAY           2.736                 17.580  15      
+blink_led_logic/n113                                         NET DELAY           2.736                 17.580  15      
 {blink_led_logic/counter_8__i1/SR   blink_led_logic/counter_8__i2/SR}
                                                              ENDPOINT            0.000                 17.580  1       
 
@@ -4565,8 +4565,8 @@ Data Path
         "type":"net_delay",
         "net":
         {
-            "log_name":"blink_led_logic/n116",
-            "phy_name":"blink_led_logic.n116"
+            "log_name":"blink_led_logic/n113",
+            "phy_name":"blink_led_logic.n113"
         },
         "arrive":17.580,
         "delay":2.736
@@ -4606,7 +4606,7 @@ blink_led_logic/i5_4_lut/B->blink_led_logic/i5_4_lut/Z
 blink_led_logic/n14                                          NET DELAY           0.304                 14.395  1       
 blink_led_logic/i8_4_lut/C->blink_led_logic/i8_4_lut/Z
                                           SLICE_R14C5C       C0_TO_F0_DELAY      0.449                 14.844  15      
-blink_led_logic/n116                                         NET DELAY           2.736                 17.580  15      
+blink_led_logic/n113                                         NET DELAY           2.736                 17.580  15      
 {blink_led_logic/counter_8__i3/SR   blink_led_logic/counter_8__i4/SR}
                                                              ENDPOINT            0.000                 17.580  1       
 
@@ -4703,7 +4703,7 @@ Path Slack  (Passed)                                                            
 -------------------------------------------------------
           Listing 10 End Points          |    Slack    
 -------------------------------------------------------
-blink_led_logic/led[2]/D                 |    1.743 ns 
+blink_led_logic/led/D                    |    1.743 ns 
 blink_led_logic/counter_8__i7/D          |    1.913 ns 
 blink_led_logic/counter_8__i8/D          |    1.913 ns 
 blink_led_logic/counter_8__i9/D          |    1.913 ns 
@@ -4734,8 +4734,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
  ++++Path 1  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Path Begin       : blink_led_logic/led[2]/Q  (SLICE_R14C4D)
-Path End         : blink_led_logic/led[2]/D  (SLICE_R14C4D)
+Path Begin       : blink_led_logic/led/Q  (SLICE_R14C4D)
+Path End         : blink_led_logic/led/D  (SLICE_R14C4D)
 Source Clock     : int_osc (R)
 Destination Clock: int_osc (R)
 Logic Level      : 2
@@ -4758,7 +4758,7 @@ Source Clock Path
     "path_end":
     {
         "type":"pin",
-        "log_name":"blink_led_logic/led[2]/CK",
+        "log_name":"blink_led_logic/led/CK",
         "phy_name":"blink_led_logic.SLICE_13/CLK"
     },
     "path_sections":[
@@ -4795,7 +4795,7 @@ Name                                      Cell/Site Name     Delay Name       In
 ----------------------------------------  -----------------  ---------------  -----  ---------------------  ------  
 hf_osc.osc_inst/CLKHF                     HFOSC_HFOSC_R1C32  CLOCK LATENCY    0.000                  0.000  16      
 blink_led_logic/int_osc                                      NET DELAY        3.084                  3.084  16      
-blink_led_logic/led[2]/CK                                    CLOCK PIN        0.000                  3.084  1       
+blink_led_logic/led/CK                                       CLOCK PIN        0.000                  3.084  1       
 
 
 Data Path
@@ -4805,13 +4805,13 @@ Data Path
     "path_begin":
     {
         "type":"pin",
-        "log_name":"blink_led_logic/led[2]/Q",
+        "log_name":"blink_led_logic/led/Q",
         "phy_name":"blink_led_logic.SLICE_13/Q0"
     },
     "path_end":
     {
         "type":"pin",
-        "log_name":"blink_led_logic/led[2]/D",
+        "log_name":"blink_led_logic/led/D",
         "phy_name":"blink_led_logic.SLICE_13/DI0"
     },
     "path_sections":[
@@ -4819,12 +4819,12 @@ Data Path
         "type":"site_delay",
         "pin0":
         {
-            "log_name":"blink_led_logic/led[2]/CK",
+            "log_name":"blink_led_logic/led/CK",
             "phy_name":"blink_led_logic.SLICE_13/CLK"
         },
         "pin1":
         {
-            "log_name":"blink_led_logic/led[2]/Q",
+            "log_name":"blink_led_logic/led/Q",
             "phy_name":"blink_led_logic.SLICE_13/Q0"
         },
         "arrive":3.863,
@@ -4886,13 +4886,13 @@ Data Path
 </tapath>
 Name                                      Cell/Site Name     Delay Name       Incr   Arrival/Required Time  Fanout  
 ----------------------------------------  -----------------  ---------------  -----  ---------------------  ------  
-blink_led_logic/led[2]/CK->blink_led_logic/led[2]/Q
+blink_led_logic/led/CK->blink_led_logic/led/Q
                                           SLICE_R14C4D       CLK_TO_Q0_DELAY  0.779                  3.863  2       
 blink_led_logic/led_c_2                                      NET DELAY        0.712                  4.575  2       
 blink_led_logic/i9_1_lut/A->blink_led_logic/i9_1_lut/Z
                                           SLICE_R14C4D       D0_TO_F0_DELAY   0.252                  4.827  1       
 blink_led_logic/n32                                          NET DELAY        0.000                  4.827  1       
-blink_led_logic/led[2]/D                                     ENDPOINT         0.000                  4.827  1       
+blink_led_logic/led/D                                        ENDPOINT         0.000                  4.827  1       
 
 
 Destination Clock Path
@@ -4908,7 +4908,7 @@ Destination Clock Path
     "path_end":
     {
         "type":"pin",
-        "log_name":"blink_led_logic/led[2]/CK",
+        "log_name":"blink_led_logic/led/CK",
         "phy_name":"blink_led_logic.SLICE_13/CLK"
     },
     "path_sections":[
@@ -4961,7 +4961,7 @@ Name                                      Cell/Site Name     Delay Name       In
                                                              CONSTRAINT       0.000                  0.000  1       
 hf_osc.osc_inst/CLKHF                     HFOSC_HFOSC_R1C32  CLOCK LATENCY    0.000                  0.000  16      
 blink_led_logic/int_osc                                      NET DELAY        3.084                  3.084  16      
-blink_led_logic/led[2]/CK                                    CLOCK PIN        0.000                  3.084  1       
+blink_led_logic/led/CK                                       CLOCK PIN        0.000                  3.084  1       
                                                              Uncertainty      0.000                  3.084  
                                                              Hold time        0.000                  3.084  
 ----------------------------------------  -----------------  ---------------  -----  ---------------------  ------  

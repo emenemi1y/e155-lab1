@@ -1,0 +1,32 @@
+C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_sevseg.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_sevseg.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module testbench_sevseg
+
+Top level modules:
+	testbench_sevseg
+
+} {} {}} C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_top.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_top.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module testbench_top
+
+Top level modules:
+	testbench_top
+
+} {} {}} C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_leds.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_leds.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module testbench_leds
+
+Top level modules:
+	testbench_leds
+
+} {} {}} C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module top
+-- Compiling module led_blink
+-- Compiling module leds
+-- Compiling module sevseg
+
+Top level modules:
+	top
+
+} {} {}}

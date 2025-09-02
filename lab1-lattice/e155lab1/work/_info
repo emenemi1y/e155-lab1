@@ -1,13 +1,17 @@
 m255
 K4
 z2
-Z0 !s12c _opt2
+Z0 !s12c _opt1
 Z1 !s99 nomlopt
 R0
 R1
-Z2 !s12c _opt1
+R0
 R1
-Z3 !s12c _opt
+R0
+R1
+Z2 !s12c _opt
+R1
+Z3 !s12c _opt2
 R1
 R0
 R1
@@ -15,23 +19,51 @@ R2
 R1
 R2
 R1
+R2
+R1
 R3
+R1
+R0
+R1
+R2
+R1
+R3
+R1
+R0
+R1
+R2
 R1
 R3
 R1
 R3
 R1
-R3
+R0
+R1
+R2
 R1
 R3
 R1
-R3
+R0
 R1
-R3
+R0
 R1
-R3
+R2
 R1
-R3
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
 R1
 !s11f MIXED_VERSIONS
 13
@@ -42,12 +74,12 @@ R1
 cModel Technology
 Z4 dC:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1
 T_opt
-!s110 1756762850
-VU4DOaz<5IbkoR>=i8cPFO2
-04 3 4 work top fast 0
-=1-00be43e571e5-68b612e2-1b8-4a78
+!s110 1756785580
+Vl8Li1IH0N?X@djKF:WoWA0
+04 16 4 work testbench_sevseg fast 0
+=1-00be43e570c5-68b66bac-2a8-576c
 R1
-!s12f OEM25U3 
+!s12f OEM25U2 
 Z5 !s12b OEM100
 Z6 !s124 OEM100
 Z7 !s135 nogc
@@ -57,25 +89,10 @@ n@_opt
 Z10 OL;O;2024.2;79
 R4
 T_opt1
-!s110 1756762910
-V<kO2CK1eoQAD:mWT>cUg`3
-04 16 4 work testbench_sevseg fast 0
-=1-00be43e571e5-68b6131e-2f7-3090
-R1
-!s12f OEM25U2 
-R5
-R6
-R7
-R8
-R9
-n@_opt1
-R10
-R4
-T_opt2
-!s110 1756763124
-VFIKEbAlRn2NFNND8=da6Y1
+!s110 1756788196
+VELP6CD<hL3H5UiicDmV;I1
 04 13 4 work testbench_top fast 0
-=1-00be43e571e5-68b613f4-91-1928
+=1-00be43e570c5-68b675e4-2a8-6560
 R1
 !s12f OEM25U4 
 R5
@@ -83,28 +100,43 @@ R6
 R7
 R8
 R9
+n@_opt1
+R10
+T_opt2
+!s110 1756785517
+VNOWWGJCf17SV3`JF5Heck2
+04 6 4 work sevseg fast 0
+=1-00be43e570c5-68b66b6d-137-4818
+R1
+!s12f OEM25U1 
+R5
+R6
+R7
+R8
+R9
 n@_opt2
 R10
+R4
 vled_blink
 Z11 2C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv
 Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z13 !s110 1756763111
+Z13 !s110 1756788183
 !i10b 1
-!s100 `MK>1Odf[d9Wd4ZjUDUdb2
-IUhS1k2PASLO5n98FFkTz03
+!s100 HUWk>Pkhj`^m71g0P4IJI2
+I47=MR`kTRc7j;jC=PoSa>3
 S1
 R4
-Z14 w1756758377
+Z14 w1756784714
 Z15 8C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv
 Z16 FC:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv
-!i122 55
-L0 19 25
+!i122 106
+L0 29 34
 Z17 VDg1SIo80bB@j0V0VzS_@n1
 Z18 OL;L;2024.2;79
 r1
 !s85 0
 31
-Z19 !s108 1756763111.000000
+Z19 !s108 1756788183.000000
 Z20 !s107 C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv|
 Z21 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv|
 !i113 0
@@ -115,15 +147,15 @@ R11
 R12
 R13
 !i10b 1
-!s100 KJc:6U[Gk;_=CHa@ZzTMa0
-IigTk`JHN7@GGRQ5DUigMh2
+!s100 k1LaBGcYY:TeTKQbM7;Y91
+ICgj7oCn^8R:jNUb<bA8N[0
 S1
 R4
 R14
 R15
 R16
-!i122 55
-L0 46 11
+!i122 106
+L0 65 18
 R17
 R18
 r1
@@ -140,15 +172,15 @@ R11
 R12
 R13
 !i10b 1
-!s100 F>zIV_@nKij@mCfIKVd5b0
-IA@oKeh;6P9@B27olozid10
+!s100 =3QP:ja9DCTBb@UHj0eUT1
+I`^CUi[[d]EbXhEmcjAm`d3
 S1
 R4
 R14
 R15
 R16
-!i122 55
-L0 60 27
+!i122 106
+L0 86 35
 R17
 R18
 r1
@@ -160,20 +192,70 @@ R21
 !i113 0
 R22
 R9
+vtestbench_blink_led
+2C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_blink_led.sv
+R12
+!s110 1756785964
+!i10b 1
+!s100 oX:8F8RCK5[[41XMMoc0n1
+IghkN>kSYa^=^2zG?zlFFG1
+S1
+R4
+w1756785961
+8C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_blink_led.sv
+FC:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_blink_led.sv
+!i122 97
+L0 3 24
+R17
+R18
+r1
+!s85 0
+31
+!s108 1756785964.000000
+!s107 C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_blink_led.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_blink_led.sv|
+!i113 0
+R22
+R9
+vtestbench_led_blink
+2C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_led_blink.sv
+R12
+R13
+!i10b 1
+!s100 AhddckNWHaKmRlJe=hhNE1
+I?`9L:0hKo]hPgzFF7XC3Q3
+S1
+R4
+w1756788176
+8C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_led_blink.sv
+FC:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_led_blink.sv
+!i122 110
+L0 2 20
+R17
+R18
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_led_blink.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_led_blink.sv|
+!i113 0
+R22
+R9
 vtestbench_leds
 2C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_leds.sv
 R12
 R13
 !i10b 1
-!s100 eW=47Ll[no`[z_IU?V0QO1
-IT1XD2MeTn4LL=;;o[>9Td0
+!s100 jIlYc7DPedP`C8eYPZ1Ii3
+IWz1i34c^gl`07kC=2f@TO1
 S1
 R4
-w1756760768
+w1756784940
 8C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_leds.sv
 FC:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_leds.sv
-!i122 56
-L0 1 51
+!i122 107
+L0 1 59
 R17
 R18
 r1
@@ -188,17 +270,17 @@ R9
 vtestbench_sevseg
 2C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_sevseg.sv
 R12
-Z23 !s110 1756763112
+R13
 !i10b 1
-!s100 7O2k3TF8j2Hz9<7E8BDNK3
-I<AVB:[GeghQH367koTR^X0
+!s100 JNh]3H00TLNOQf61^Q8BL2
+IV3[K]o??AE33;zdXmRKng3
 S1
 R4
-w1756760405
+w1756778161
 8C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_sevseg.sv
 FC:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_sevseg.sv
-!i122 57
-L0 1 53
+!i122 108
+L0 1 61
 R17
 R18
 r1
@@ -213,23 +295,23 @@ R9
 vtestbench_top
 2C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_top.sv
 R12
-R23
+R13
 !i10b 1
-!s100 NazFVYUVmUjX_Y]@h:A0?3
-IaPj=MS_B0T[MLN_J1A:<h3
+!s100 GLTFcAULEcdZ9f9>`S^JX3
+ILKU?YCPUTeBSJhN9UeS?]0
 S1
 R4
-w1756763106
+w1756778174
 8C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_top.sv
 FC:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_top.sv
-!i122 58
-L0 3 52
+!i122 109
+L0 3 59
 R17
 R18
 r1
 !s85 0
 31
-!s108 1756763112.000000
+R19
 !s107 C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_top.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_top.sv|
 !i113 0
@@ -240,15 +322,15 @@ R11
 R12
 R13
 !i10b 1
-!s100 hR;V?52oW:GnPD0oHEHDf3
-INMZjXLeb5nA[1X^Ja8Mh52
+!s100 BZUA:PDEg<8`[7V_WP`eg2
+I<ndhUkT0d=NaGPA2QZR;53
 S1
 R4
 R14
 R15
 R16
-!i122 55
-L0 1 17
+!i122 106
+L0 1 27
 R17
 R18
 r1

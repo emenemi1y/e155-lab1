@@ -1,0 +1,27 @@
+#Start recording tcl command: 9/1/2025 20:15:43
+#Project Location: C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1; Project name: e155lab1
+prj_open "C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/e155lab1.rdf"
+prj_add_source "C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_blink_led.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Synthesis -impl impl_1 -task Lattice_Synthesis
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_disable_source "C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_top.sv" "C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_sevseg.sv" "C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_leds.sv" "C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_blink_led.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_led_blink.sv"
+prj_disable_source "C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/testbench_led_blink.sv"
+prj_add_source "C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/AI_prototype.sv"
+prj_disable_source "C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/e155lab1/source/impl_1/lab1_ek.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_save 
+prj_close
+#Stop recording: 9/1/2025 21:54:37

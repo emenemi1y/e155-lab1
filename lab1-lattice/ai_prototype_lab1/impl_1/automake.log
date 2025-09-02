@@ -1,0 +1,11 @@
+vhd. VHDL-1481
+Analyzing VHDL file c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.vhd
+
+INFO <35921014> - c:/lscc/radiant/2024.2/ip/pmi/pmi_ice40up.vhd(4): analyzing package components. VHDL-1014
+INFO <35921504> - The default VHDL library search path is now "C:/Users/ekendrick/Documents/GitHub/e155-lab1/lab1-lattice/ai_prototype_lab1/impl_1". VHDL-1504
+Top module language type = Verilog.
+Top module name (Verilog, mixed language): led_blink_2hz
+INFO <35901018> - c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/ai_prototype_lab1/source/impl_1/ai_prototype.sv(1): compiling module led_blink_2hz. VERI-1018
+ERROR <35901063> - c:/users/ekendrick/documents/github/e155-lab1/lab1-lattice/ai_prototype_lab1/source/impl_1/ai_prototype.sv(16): instantiating unknown module SB_HFOSC. VERI-1063
+
+child process exited abnormally

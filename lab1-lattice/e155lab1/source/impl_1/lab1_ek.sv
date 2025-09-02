@@ -5,6 +5,7 @@ module top(
 	output logic [6:0] seg
 );
 
+
 /*
 Name: Emily Kendrick
 Email: ekendrick@hmc.edu
@@ -18,8 +19,8 @@ Instantiates modules for 7-segment and LED logic.
 	HSOSC #(.CLKHF_DIV(2'b01)) 
 		hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(int_osc));
 	
-	led_blink blink_led_logic(int_osc, reset, led);
-	leds led_logic(s, led);
+	led_blink blink_led_logic(int_osc, reset, led[2]);
+	leds led_logic(s, led[1:0]);
 	sevseg sevseg_logic(s, seg);
 
 	
@@ -28,7 +29,7 @@ endmodule
 module led_blink(
 	input logic int_osc,
 	input logic reset,
-	output logic [2:0] led
+	output logic led
 );
 
 /*
@@ -49,11 +50,11 @@ assuming the clock frequency is 48 MHz using a counter.
     always_ff @(posedge int_osc) begin
 	  if (reset == 0) begin
 		  counter <= 0;
-		  led[2] <= 0;
+		  led <= 0;
 	  end
       if(counter == NUM_CYCLES) begin
 		  counter <= 0;
-		  led[2] <= ~led[2];
+		  led <= ~led;
       end
       else counter <= counter + 1;
     end
@@ -63,7 +64,7 @@ endmodule
 
 module leds(
 	input logic [3:0] s,
-	output logic [2:0] led
+	output logic [1:0] led
 );
 
 /*
